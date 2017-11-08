@@ -1,0 +1,40 @@
+{
+  "projectName": "DNS tunnel transport/payloads for Metasploit",
+  "projectStatus": "Ongoing. Windows transport (metsrv/payloads) is ready. Current tasks: migrating into Metasploit fork",
+  "projectShortDescription": "DNS tunnel transport for MSF",
+  "projectDescription": "Developing and implementing DNS tunnel transport for Meterpreter.",
+  "projectContacts": {
+	   "www" : "https://defcon-russia.ru/projects/meterpreter",
+     "github" : "defcon-russia",
+     "telegram" : "https://t.me/DCG7812",
+     "email" : "alex.sintsov@gmail.com",
+     "twitter" : "defconrussia"
+  },
+  "projectMembers": {
+    "Alexey Sintsov" : {
+      "www" : "https://defcon-russia.ru",
+      "github" : "eik00d",
+      "telegram" : "",
+      "email" : "alex.sintsov@gmail.com",
+      "twitter" : "asintsov"
+    },
+    "Maxim Andreyanov" : {
+      "www" : "",
+      "github" : "max3raza",
+      "telegram" : "",
+      "email" : "",
+      "twitter" : ""
+    }
+  },
+  "projectSlogan" : "Let's make meterpreter greate again!",
+  "projectLogo": "https://defcon-russia.ru/images/logo.png",
+  "whoIsNeeded": {
+    "Tester": "Pentetser who will test this and will provide bugs and feedbacks",
+    "Linux developers": "Adding support for Linux/Unix systems and etc"
+  },
+  "projectTags": [
+    "metasploit",
+    "meterpreter",
+    "dns"
+  ]
+}
