@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on DEF CON group DCG7812 St.Petersburg,Russia</title>
+    <link>https://defcon-russia.ru/categories/</link>
+    <description>Recent content in Categories on DEF CON group DCG7812 St.Petersburg,Russia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>defconrussia@gmail.com (Russian DEF CON group: DC7812)</managingEditor>
+    <webMaster>defconrussia@gmail.com (Russian DEF CON group: DC7812)</webMaster>
+    
+	<atom:link href="https://defcon-russia.ru/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meetups</title>
+      <link>https://defcon-russia.ru/categories/meetups/</link>
+      <pubDate>Thu, 31 May 2018 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/categories/meetups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://defcon-russia.ru/categories/news/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/categories/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Streams</title>
+      <link>https://defcon-russia.ru/categories/streams/</link>
+      <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/categories/streams/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

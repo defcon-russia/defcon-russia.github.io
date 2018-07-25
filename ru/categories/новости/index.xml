@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Новости on DEF CON group DCG7812 St.Petersburg,Russia</title>
+    <link>https://defcon-russia.ru/ru/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</link>
+    <description>Recent content in Новости on DEF CON group DCG7812 St.Petersburg,Russia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>defconrussia@gmail.com (Russian DEF CON group: DC7812)</managingEditor>
+    <webMaster>defconrussia@gmail.com (Russian DEF CON group: DC7812)</webMaster>
+    <lastBuildDate>Thu, 27 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://defcon-russia.ru/ru/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Требуется помощь</title>
+      <link>https://defcon-russia.ru/ru/2017/07/%D1%82%D1%80%D0%B5%D0%B1%D1%83%D0%B5%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/ru/2017/07/%D1%82%D1%80%D0%B5%D0%B1%D1%83%D0%B5%D1%82%D1%81%D1%8F-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C/</guid>
+      <description>Нам бы дизайнера по ВЕБ и того, кто смог бы вести этот блог. Если хочешь помочь, пиши на defconrussia [] gmail[dot]com.</description>
+    </item>
+    
+    <item>
+      <title>Сайт: Перерождение</title>
+      <link>https://defcon-russia.ru/ru/2017/06/%D1%81%D0%B0%D0%B9%D1%82-%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5/</link>
+      <pubDate>Thu, 01 Jun 2017 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/ru/2017/06/%D1%81%D0%B0%D0%B9%D1%82-%D0%BF%D0%B5%D1%80%D0%B5%D1%80%D0%BE%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5/</guid>
+      <description>Все пр*срано. Сайт, новости и тд&amp;hellip; добро пожаловать!</description>
+    </item>
+    
+  </channel>
+</rss>
