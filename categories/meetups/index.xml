@@ -8,10 +8,21 @@
     <language>en-us</language>
     <managingEditor>defconrussia@gmail.com (Russian DEF CON group: DC7812)</managingEditor>
     <webMaster>defconrussia@gmail.com (Russian DEF CON group: DC7812)</webMaster>
-    <lastBuildDate>Thu, 31 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://defcon-russia.ru/categories/meetups/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Meeting on 5.8.2018</title>
+      <link>https://defcon-russia.ru/2018/07/meeting-on-5.8.2018/</link>
+      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/2018/07/meeting-on-5.8.2018/</guid>
+      <description>&lt;p&gt;Next meeting will be on 5.8.2018 at 14.30&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Meeting on 8.6.2018</title>
@@ -42,17 +53,6 @@
       <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
       <guid>https://defcon-russia.ru/2017/08/meeting-on-03.09.17/</guid>
       <description>&lt;p&gt;New meeting are coming, on the boat: 03.09.17.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Meeting on 5.8.2018</title>
-      <link>https://defcon-russia.ru/2017/07/meeting-on-5.8.2018/</link>
-      <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
-      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
-      <guid>https://defcon-russia.ru/2017/07/meeting-on-5.8.2018/</guid>
-      <description>&lt;p&gt;Next meeting will be on 5.8.2018 at 14.30&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>
