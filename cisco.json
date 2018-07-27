@@ -1,6 +1,6 @@
 {
   "feedinfo": {
-    "category": "Connectors", 
+    "category": "Meta-feed", 
     "provider_url": "https://tools.cisco.com/security/center/publicationListing.x#~Threats", 
     "display_name": "Cisco Threat Outbreak Alert", 
     "name": "ciscoThreat", 
@@ -27,15 +27,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22egypt_order_2018.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22egypt_order_2018.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22egypt_order_2018.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22egypt_order_2018.zip%22%20OR%20filemod%3a%22egypt_order_2018.rar%22%20OR%20filemod%3a%22egypt_order_2018.exe%22))"
           }
         ]
       }, 
@@ -62,15 +54,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hsbc_payment_notice.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hsbc_payment_notice.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hsbc_payment_notice.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22hsbc_payment_notice.zip%22%20OR%20filemod%3a%22hsbc_payment_notice.rar%22%20OR%20filemod%3a%22hsbc_payment_notice.exe%22))"
           }
         ]
       }, 
@@ -97,11 +81,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.gz%22%20OR%20filemod%3a%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.exe%22))"
           }
         ]
       }, 
@@ -128,11 +108,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order213.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order213.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22order213.zip%22%20OR%20filemod%3a%22order213.exe%22))"
           }
         ]
       }, 
@@ -159,15 +135,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_mtk1007_018_pdf..zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_mtk1007_018_pdf..rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_mtk1007_018_pdf..exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22scan_mtk1007_018_pdf..zip%22%20OR%20filemod%3a%22scan_mtk1007_018_pdf..rar%22%20OR%20filemod%3a%22scan_mtk1007_018_pdf..exe%22))"
           }
         ]
       }, 
@@ -194,11 +162,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20checklist.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20checklist.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22dhl%20checklist.rar%22%20OR%20filemod%3a%22dhl%20checklist.exe%22))"
           }
         ]
       }, 
@@ -225,15 +189,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22rfq_1743190_xlc.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22rfq_1743190_xlc.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22rfq_1743190_xlc.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22rfq_1743190_xlc.zip%22%20OR%20filemod%3a%22rfq_1743190_xlc.rar%22%20OR%20filemod%3a%22rfq_1743190_xlc.exe%22))"
           }
         ]
       }, 
@@ -260,11 +216,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20receipt_pdf.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22eccc2day_output48e55c0.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22dhl%20receipt_pdf.gz%22%20OR%20filemod%3a%22eccc2day_output48e55c0.exe%22))"
           }
         ]
       }, 
@@ -291,11 +243,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22swift09017.7z%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22swift09017.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22swift09017.7z%22%20OR%20filemod%3a%22swift09017.exe%22))"
           }
         ]
       }, 
@@ -322,7 +270,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22remittance.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22remittance.jar%22))"
           }
         ]
       }, 
@@ -349,11 +297,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22draft%20bl%20and%20shiipping%20document_pdf.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22draft%20bl%20and%20shiipping%20document_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22draft%20bl%20and%20shiipping%20document_pdf.gz%22%20OR%20filemod%3a%22draft%20bl%20and%20shiipping%20document_pdf.exe%22))"
           }
         ]
       }, 
@@ -380,15 +324,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv%20pan%20gloris%20ii.pdf.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv%20pan%20gloris%20ii.pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22blu%20-%20requisition_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mv%20pan%20gloris%20ii.pdf.zip%22%20OR%20filemod%3a%22mv%20pan%20gloris%20ii.pdf.rar%22%20OR%20filemod%3a%22blu%20-%20requisition_pdf.exe%22))"
           }
         ]
       }, 
@@ -415,15 +351,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22payment-advice.zip%22%20OR%20filemod%3a%22payment-advice.rar%22%20OR%20filemod%3a%22payment-advice.exe%22))"
           }
         ]
       }, 
@@ -450,11 +378,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scansione%20documenti0068.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scansione-5.vbs%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22scansione%20documenti0068.zip%22%20OR%20filemod%3a%22scansione-5.vbs%22))"
           }
         ]
       }, 
@@ -481,11 +405,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22descompactar.para.imprimir_16-06-2018.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22segunda%20via%20boleto%20venc-16-06-2018.cmd.cmd%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22descompactar.para.imprimir_16-06-2018.zip%22%20OR%20filemod%3a%22segunda%20via%20boleto%20venc-16-06-2018.cmd.cmd%22))"
           }
         ]
       }, 
@@ -512,15 +432,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan02_a17826f.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan02_a17826f.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan02_a17826f.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22scan02_a17826f.zip%22%20OR%20filemod%3a%22scan02_a17826f.rar%22%20OR%20filemod%3a%22scan02_a17826f.exe%22))"
           }
         ]
       }, 
@@ -547,7 +459,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pago.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22pago.jar%22))"
           }
         ]
       }, 
@@ -574,11 +486,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%224354-3897248.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22sec_files_capost%26royalmail.vbs%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%224354-3897248.zip%22%20OR%20filemod%3a%22sec_files_capost%26royalmail.vbs%22))"
           }
         ]
       }, 
@@ -605,11 +513,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan%20copy%20-%20invoice%201018087_pdf.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_output2f036b0.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22scan%20copy%20-%20invoice%201018087_pdf.gz%22%20OR%20filemod%3a%22_output2f036b0.exe%22))"
           }
         ]
       }, 
@@ -636,11 +540,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_scan_hf087.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_scan_hf087.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22doc_scan_hf087.gz%22%20OR%20filemod%3a%22doc_scan_hf087.exe%22))"
           }
         ]
       }, 
@@ -667,15 +567,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20orderfile..zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20orderfile..rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22fb.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22new%20orderfile..zip%22%20OR%20filemod%3a%22new%20orderfile..rar%22%20OR%20filemod%3a%22fb.exe%22))"
           }
         ]
       }, 
@@ -702,11 +594,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mineral%20specification.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mineral%20specification.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mineral%20specification.zip%22%20OR%20filemod%3a%22mineral%20specification.exe%22))"
           }
         ]
       }, 
@@ -733,15 +621,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mt%20sk%20line%201.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mt%20sk%20line%201.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mt%20sk%20line%201.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mt%20sk%20line%201.zip%22%20OR%20filemod%3a%22mt%20sk%20line%201.rar%22%20OR%20filemod%3a%22mt%20sk%20line%201.exe%22))"
           }
         ]
       }, 
@@ -768,15 +648,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.zip%22%20OR%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.rar%22%20OR%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.exe%22))"
           }
         ]
       }, 
@@ -803,15 +675,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22shipping%20document_pdf.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22shipping%20document_pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22shipping%20document_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22shipping%20document_pdf.zip%22%20OR%20filemod%3a%22shipping%20document_pdf.rar%22%20OR%20filemod%3a%22shipping%20document_pdf.exe%22))"
           }
         ]
       }, 
@@ -838,15 +702,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_798893877_doc.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_798893877_doc.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_798893877_doc.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22_798893877_doc.zip%22%20OR%20filemod%3a%22_798893877_doc.rar%22%20OR%20filemod%3a%22_798893877_doc.exe%22))"
           }
         ]
       }, 
@@ -873,11 +729,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv%20xenios.pdf.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22maccccc.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mv%20xenios.pdf.gz%22%20OR%20filemod%3a%22maccccc.exe%22))"
           }
         ]
       }, 
@@ -904,11 +756,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22adoc%20rfq-wcms-18097255.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22adoc%20rfq-wcms-18097255.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22adoc%20rfq-wcms-18097255.rar%22%20OR%20filemod%3a%22adoc%20rfq-wcms-18097255.exe%22))"
           }
         ]
       }, 
@@ -935,15 +783,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22halia%20req.%202018pdf.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22halia%20req.%202018pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22halia%20req.%202018pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22halia%20req.%202018pdf.zip%22%20OR%20filemod%3a%22halia%20req.%202018pdf.rar%22%20OR%20filemod%3a%22halia%20req.%202018pdf.exe%22))"
           }
         ]
       }, 
@@ -970,11 +810,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%20fc-21565-project%20specification.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%20fc-21565-project%20specification.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22no%20fc-21565-project%20specification.rar%22%20OR%20filemod%3a%22no%20fc-21565-project%20specification.exe%22))"
           }
         ]
       }, 
@@ -1001,19 +837,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf_%282%29%20%281%29.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf_%282%29%20%281%29.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf.rar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22doc_00044583-pdf_%282%29%20%281%29.zip%22%20OR%20filemod%3a%22doc_00044583-pdf_%282%29%20%281%29.rar%22%20OR%20filemod%3a%22doc_00044583-pdf.zip%22%20OR%20filemod%3a%22doc_00044583-pdf.rar%22))"
           }
         ]
       }, 
@@ -1040,15 +864,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_sophia_docs.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_sophia_docs.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_sophia_docs.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mv_sophia_docs.zip%22%20OR%20filemod%3a%22mv_sophia_docs.rar%22%20OR%20filemod%3a%22mv_sophia_docs.exe%22))"
           }
         ]
       }, 
@@ -1075,15 +891,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22po.zip%22%20OR%20filemod%3a%22po.rar%22%20OR%20filemod%3a%22po.exe%22))"
           }
         ]
       }, 
@@ -1110,11 +918,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_ocean_glory_pdf.xz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_ocean_glory_tkh-a801b_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mv_ocean_glory_pdf.xz%22%20OR%20filemod%3a%22mv_ocean_glory_tkh-a801b_pdf.exe%22))"
           }
         ]
       }, 
@@ -1141,11 +945,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22soa-june.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22soa-june.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22soa-june.rar%22%20OR%20filemod%3a%22soa-june.exe%22))"
           }
         ]
       }, 
@@ -1172,11 +972,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22remittance%20advice_scan%20copy.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22%40ss.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22remittance%20advice_scan%20copy.gz%22%20OR%20filemod%3a%22%40ss.exe%22))"
           }
         ]
       }, 
@@ -1203,7 +999,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2247136752.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%2247136752.jar%22))"
           }
         ]
       }, 
@@ -1230,11 +1026,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ttswiftcopy.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ttswiftcopy.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22ttswiftcopy.zip%22%20OR%20filemod%3a%22ttswiftcopy.exe%22))"
           }
         ]
       }, 
@@ -1261,11 +1053,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20order%20m.v%20inc.%20ltd.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22paytt.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22new%20order%20m.v%20inc.%20ltd.rar%22%20OR%20filemod%3a%22paytt.exe%22))"
           }
         ]
       }, 
@@ -1292,11 +1080,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_euro%20invoice.7z%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22jboy.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22_euro%20invoice.7z%22%20OR%20filemod%3a%22jboy.exe%22))"
           }
         ]
       }, 
@@ -1323,15 +1107,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_ord_062518857584_doc.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_ord_062518857584_doc.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_ord_062518857584_doc.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22_ord_062518857584_doc.zip%22%20OR%20filemod%3a%22_ord_062518857584_doc.rar%22%20OR%20filemod%3a%22_ord_062518857584_doc.exe%22))"
           }
         ]
       }, 
@@ -1358,7 +1134,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pdf_po%20%23%20fg-100732%20for%20next%20shipment.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22pdf_po%20%23%20fg-100732%20for%20next%20shipment.jar%22))"
           }
         ]
       }, 
@@ -1385,15 +1161,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22payment-advice.zip%22%20OR%20filemod%3a%22payment-advice.rar%22%20OR%20filemod%3a%22payment-advice.exe%22))"
           }
         ]
       }, 
@@ -1420,11 +1188,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22i599241.r11%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22chima.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22i599241.r11%22%20OR%20filemod%3a%22chima.exe%22))"
           }
         ]
       }, 
@@ -1451,11 +1215,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ulzyymuank_po.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22cv.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22ulzyymuank_po.zip%22%20OR%20filemod%3a%22cv.jar%22))"
           }
         ]
       }, 
@@ -1482,11 +1242,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ulzyymuank_po.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ulzyymuank_po.vbs%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22ulzyymuank_po.zip%22%20OR%20filemod%3a%22ulzyymuank_po.vbs%22))"
           }
         ]
       }, 
@@ -1513,11 +1269,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment_image%23004579721%20-%20copy.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment_image%23004579721%20-%20copy.scr%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22payment_image%23004579721%20-%20copy.gz%22%20OR%20filemod%3a%22payment_image%23004579721%20-%20copy.scr%22))"
           }
         ]
       }, 
@@ -1544,11 +1296,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.rar%22%20OR%20filemod%3a%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.exe%22))"
           }
         ]
       }, 
@@ -1575,11 +1323,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20copy.ace%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20order.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22payment%20copy.ace%22%20OR%20filemod%3a%22new%20order.exe%22))"
           }
         ]
       }, 
@@ -1606,11 +1350,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22request%20quotations.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22iykee.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22request%20quotations.rar%22%20OR%20filemod%3a%22iykee.exe%22))"
           }
         ]
       }, 
@@ -1637,11 +1377,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22comprovante.pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22comprovante%20pagamento.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22comprovante.pdf.rar%22%20OR%20filemod%3a%22comprovante%20pagamento.jar%22))"
           }
         ]
       }, 
@@ -1668,7 +1404,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22marine%20armour%20cable%201x2x0.75.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22marine%20armour%20cable%201x2x0.75.jar%22))"
           }
         ]
       }, 
@@ -1695,11 +1431,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22catena%20net%20doo%20beograd%20eur%2042800%2C76%202018062520180625133342.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22catena%20net%20doo%20beograd%20eur%2042800%2C76%2020180624083621.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22catena%20net%20doo%20beograd%20eur%2042800%2C76%202018062520180625133342.zip%22%20OR%20filemod%3a%22catena%20net%20doo%20beograd%20eur%2042800%2C76%2020180624083621.exe%22))"
           }
         ]
       }, 
@@ -1726,15 +1458,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22vessel%20particulars_q88.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22vessel%20particulars_q88.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22vessel%20particulars_q88.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22vessel%20particulars_q88.zip%22%20OR%20filemod%3a%22vessel%20particulars_q88.rar%22%20OR%20filemod%3a%22vessel%20particulars_q88.exe%22))"
           }
         ]
       }, 
@@ -1761,11 +1485,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22%23%20flfykjtjez.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22%23%20flfykjtjez.bat%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22%23%20flfykjtjez.zip%22%20OR%20filemod%3a%22%23%20flfykjtjez.bat%22))"
           }
         ]
       }, 
@@ -1792,15 +1512,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation_request_sheet%2Cxls.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation_request_sheet%2Cxls.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation_request_sheet%2Cxls.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22quotation_request_sheet%2Cxls.zip%22%20OR%20filemod%3a%22quotation_request_sheet%2Cxls.rar%22%20OR%20filemod%3a%22quotation_request_sheet%2Cxls.exe%22))"
           }
         ]
       }, 
@@ -1827,11 +1539,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22document_list%20.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22document_list.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22document_list%20.rar%22%20OR%20filemod%3a%22document_list.exe%22))"
           }
         ]
       }, 
@@ -1858,11 +1566,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20invoice.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20invoice.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22purchase%20invoice.rar%22%20OR%20filemod%3a%22purchase%20invoice.exe%22))"
           }
         ]
       }, 
@@ -1889,11 +1593,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hyundaipipe.rfq%3D.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hyundaipipe.rfq%3D.scr%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22hyundaipipe.rfq%3D.rar%22%20OR%20filemod%3a%22hyundaipipe.rfq%3D.scr%22))"
           }
         ]
       }, 
@@ -1920,11 +1620,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.gz%22%20OR%20filemod%3a%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.exe%22))"
           }
         ]
       }, 
@@ -1951,11 +1647,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22supply%204279026520012614%20-pdf%20file.r11%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%224279026520012614%20-pdf%20file.bat%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22supply%204279026520012614%20-pdf%20file.r11%22%20OR%20filemod%3a%224279026520012614%20-pdf%20file.bat%22))"
           }
         ]
       }, 
@@ -1982,15 +1674,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.zip%22%20OR%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.rar%22%20OR%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.exe%22))"
           }
         ]
       }, 
@@ -2017,11 +1701,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order-bsindustries-22062018.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order-bsindustries-22062018.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22purchase%20order-bsindustries-22062018.gz%22%20OR%20filemod%3a%22purchase%20order-bsindustries-22062018.exe%22))"
           }
         ]
       }, 
@@ -2048,11 +1728,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22tender%20ayer%28mmhe%2918-0012.lzh%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22tender%20ayer%28mmhe%2918-0012.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22tender%20ayer%28mmhe%2918-0012.lzh%22%20OR%20filemod%3a%22tender%20ayer%28mmhe%2918-0012.exe%22))"
           }
         ]
       }, 
@@ -2079,11 +1755,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22awb2%20inv%20%233018169.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22awb2%20inv%20%233018169.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22awb2%20inv%20%233018169.zip%22%20OR%20filemod%3a%22awb2%20inv%20%233018169.exe%22))"
           }
         ]
       }, 
@@ -2110,11 +1782,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bank%20transfer%20barclays%2020.06.2018.lha%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bank%20transfer%20barclays%2020.06.2018.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22bank%20transfer%20barclays%2020.06.2018.lha%22%20OR%20filemod%3a%22bank%20transfer%20barclays%2020.06.2018.exe%22))"
           }
         ]
       }, 
@@ -2141,11 +1809,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%231000348656%20helwa_pdf.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%231000348656%20helwa_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22no%231000348656%20helwa_pdf.gz%22%20OR%20filemod%3a%22no%231000348656%20helwa_pdf.exe%22))"
           }
         ]
       }, 
@@ -2172,11 +1836,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order%20confirmation.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order%20confirmation.vbs%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22order%20confirmation.rar%22%20OR%20filemod%3a%22order%20confirmation.vbs%22))"
           }
         ]
       }, 
@@ -2203,15 +1863,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order.pdf.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order.pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order.pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22purchase%20order.pdf.zip%22%20OR%20filemod%3a%22purchase%20order.pdf.rar%22%20OR%20filemod%3a%22purchase%20order.pdf.exe%22))"
           }
         ]
       }, 
@@ -2238,11 +1890,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22inquiry%20no%2003072018_pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ck_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22inquiry%20no%2003072018_pdf.rar%22%20OR%20filemod%3a%22ck_pdf.exe%22))"
           }
         ]
       }, 
@@ -2269,15 +1917,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_07032018.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_07032018.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_07032018.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22scan_07032018.zip%22%20OR%20filemod%3a%22scan_07032018.rar%22%20OR%20filemod%3a%22scan_07032018.exe%22))"
           }
         ]
       }, 
@@ -2304,15 +1944,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22m.v.%20tramontana_doc.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22m.v.%20tramontana_doc.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22m.v.%20tramontana_doc.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22m.v.%20tramontana_doc.zip%22%20OR%20filemod%3a%22m.v.%20tramontana_doc.rar%22%20OR%20filemod%3a%22m.v.%20tramontana_doc.exe%22))"
           }
         ]
       }, 
@@ -2339,11 +1971,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ci%2Bpl%2Bbl_docs.xz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ci%2Bpl%2Bbl.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22ci%2Bpl%2Bbl_docs.xz%22%20OR%20filemod%3a%22ci%2Bpl%2Bbl.exe%22))"
           }
         ]
       }, 
@@ -2370,15 +1998,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation%20%26%20sample%20designs.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation%20%26%20sample%20designs.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation%20%26%20sample%20designs.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22quotation%20%26%20sample%20designs.zip%22%20OR%20filemod%3a%22quotation%20%26%20sample%20designs.rar%22%20OR%20filemod%3a%22quotation%20%26%20sample%20designs.exe%22))"
           }
         ]
       }, 
@@ -2405,7 +2025,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22inquiry_july_shipment.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22inquiry_july_shipment.jar%22))"
           }
         ]
       }, 
@@ -2432,7 +2052,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hbl761dc3pl.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22hbl761dc3pl.jar%22))"
           }
         ]
       }, 
@@ -2459,15 +2079,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601_xlsx.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.zip%22%20OR%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.rar%22%20OR%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601_xlsx.exe%22))"
           }
         ]
       }, 
@@ -2494,7 +2106,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%220041477749_0666_119_2018-06-14-12_21_10.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%220041477749_0666_119_2018-06-14-12_21_10.jar%22))"
           }
         ]
       }, 
@@ -2521,11 +2133,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22attachments%20default.htm%20%282.21k%29.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22attachments%20default.htm%20%282.21k%29.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22attachments%20default.htm%20%282.21k%29.zip%22%20OR%20filemod%3a%22attachments%20default.htm%20%282.21k%29.exe%22))"
           }
         ]
       }, 
@@ -2552,7 +2160,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22notification19905661.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22notification19905661.jar%22))"
           }
         ]
       }, 
@@ -2579,15 +2187,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.daeho%20sunstar%201704.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.daeho%20sunstar%201704.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.daeho%20sunstar%201704.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mv.daeho%20sunstar%201704.zip%22%20OR%20filemod%3a%22mv.daeho%20sunstar%201704.rar%22%20OR%20filemod%3a%22mv.daeho%20sunstar%201704.exe%22))"
           }
         ]
       }, 
@@ -2614,15 +2214,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2220180704_171537_mt103_copy.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2220180704_171537_mt103_copy.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2220180704_171537_mt103_copy.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%2220180704_171537_mt103_copy.zip%22%20OR%20filemod%3a%2220180704_171537_mt103_copy.rar%22%20OR%20filemod%3a%2220180704_171537_mt103_copy.exe%22))"
           }
         ]
       }, 
@@ -2649,7 +2241,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22000002746539575docx.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22000002746539575docx.jar%22))"
           }
         ]
       }, 
@@ -2676,7 +2268,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2228746582000docx.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%2228746582000docx.jar%22))"
           }
         ]
       }, 
@@ -2703,11 +2295,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_doc_pdf.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_doc_pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22scan_doc_pdf.gz%22%20OR%20filemod%3a%22scan_doc_pdf.exe%22))"
           }
         ]
       }, 
@@ -2734,15 +2322,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.zip%22%20OR%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.rar%22%20OR%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.exe%22))"
           }
         ]
       }, 
@@ -2769,15 +2349,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.zip%22%20OR%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.rar%22%20OR%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.exe%22))"
           }
         ]
       }, 
@@ -2804,15 +2376,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc%23103041dr..zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc%23103041dr..rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc%23103041dr..exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22doc%23103041dr..zip%22%20OR%20filemod%3a%22doc%23103041dr..rar%22%20OR%20filemod%3a%22doc%23103041dr..exe%22))"
           }
         ]
       }, 
@@ -2839,11 +2403,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mys-turkeysupplyquote09072018.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mys-turkeysupplyquote09072018.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22mys-turkeysupplyquote09072018.gz%22%20OR%20filemod%3a%22mys-turkeysupplyquote09072018.exe%22))"
           }
         ]
       }, 
@@ -2870,15 +2430,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%200020180709.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%200020180709.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%200020180709.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22payment%20advice%200020180709.zip%22%20OR%20filemod%3a%22payment%20advice%200020180709.rar%22%20OR%20filemod%3a%22payment%20advice%200020180709.exe%22))"
           }
         ]
       }, 
@@ -2905,11 +2457,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22img_20180709_655476.jpg.ace%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22img_20180709_655476.jpg.ace%22%20OR%20filemod%3a%22quotation.exe%22))"
           }
         ]
       }, 
@@ -2936,7 +2484,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22orig.invc..jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22orig.invc..jar%22))"
           }
         ]
       }, 
@@ -2963,7 +2511,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pda%20request.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22pda%20request.jar%22))"
           }
         ]
       }, 
@@ -2990,15 +2538,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20documents%20and%20invoice.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20documents%20and%20invoice.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20documents%20and%20invoice.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22dhl%20documents%20and%20invoice.zip%22%20OR%20filemod%3a%22dhl%20documents%20and%20invoice.rar%22%20OR%20filemod%3a%22dhl%20documents%20and%20invoice.exe%22))"
           }
         ]
       }, 
@@ -3025,11 +2565,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22product%20inquiry.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan56352.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22product%20inquiry.rar%22%20OR%20filemod%3a%22scan56352.exe%22))"
           }
         ]
       }, 
@@ -3056,15 +2592,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan-quo1-pdf.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan-quo1-pdf.rar%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan-kon1-pdf.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22scan-quo1-pdf.zip%22%20OR%20filemod%3a%22scan-quo1-pdf.rar%22%20OR%20filemod%3a%22scan-kon1-pdf.exe%22))"
           }
         ]
       }, 
@@ -3091,7 +2619,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po_2292_from_al_raqaib_building_materials_trading_l.l.c._7904.jar%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22po_2292_from_al_raqaib_building_materials_trading_l.l.c._7904.jar%22))"
           }
         ]
       }, 
@@ -3118,11 +2646,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22letter%20of%20demand.zip%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22letter%20of%20demand.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22letter%20of%20demand.zip%22%20OR%20filemod%3a%22letter%20of%20demand.exe%22))"
           }
         ]
       }, 
@@ -3149,11 +2673,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22invoice%20format.gz%22)"
-          }, 
-          {
-            "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22invoice%20format.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22invoice%20format.gz%22%20OR%20filemod%3a%22invoice%20format.exe%22))"
           }
         ]
       }, 
@@ -3180,7 +2700,7 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22profile.exe%22)"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20AND%20(filemod%3a%22profile.exe%22))"
           }
         ]
       }, 
