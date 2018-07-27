@@ -9,7 +9,7 @@
   }, 
   "reports": [
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33173: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319139, 
       "iocs": {
         "md5": [
@@ -21,7 +21,7 @@
       "id": "CISCO-THREAT-58424_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33173: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319139, 
       "iocs": {
         "query": [
@@ -44,7 +44,7 @@
       "id": "CISCO-THREAT-58424_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33172: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319141, 
       "iocs": {
         "md5": [
@@ -56,7 +56,7 @@
       "id": "CISCO-THREAT-58425_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33172: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319141, 
       "iocs": {
         "query": [
@@ -79,7 +79,7 @@
       "id": "CISCO-THREAT-58425_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33170: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319124, 
       "iocs": {
         "md5": [
@@ -91,7 +91,7 @@
       "id": "CISCO-THREAT-58426_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33170: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319124, 
       "iocs": {
         "query": [
@@ -110,7 +110,7 @@
       "id": "CISCO-THREAT-58426_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33169: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319126, 
       "iocs": {
         "md5": [
@@ -122,7 +122,7 @@
       "id": "CISCO-THREAT-58427_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33169: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319126, 
       "iocs": {
         "query": [
@@ -141,7 +141,7 @@
       "id": "CISCO-THREAT-58427_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33178: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319132, 
       "iocs": {
         "md5": [
@@ -153,7 +153,7 @@
       "id": "CISCO-THREAT-58420_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33178: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319132, 
       "iocs": {
         "query": [
@@ -176,7 +176,7 @@
       "id": "CISCO-THREAT-58420_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33176: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319134, 
       "iocs": {
         "md5": [
@@ -188,7 +188,7 @@
       "id": "CISCO-THREAT-58421_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33176: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319134, 
       "iocs": {
         "query": [
@@ -207,7 +207,7 @@
       "id": "CISCO-THREAT-58421_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33175: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319136, 
       "iocs": {
         "md5": [
@@ -219,7 +219,7 @@
       "id": "CISCO-THREAT-58422_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33175: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319136, 
       "iocs": {
         "query": [
@@ -242,7 +242,7 @@
       "id": "CISCO-THREAT-58422_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33174: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319138, 
       "iocs": {
         "md5": [
@@ -254,7 +254,7 @@
       "id": "CISCO-THREAT-58423_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33174: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319138, 
       "iocs": {
         "query": [
@@ -273,7 +273,7 @@
       "id": "CISCO-THREAT-58423_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33160: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319128, 
       "iocs": {
         "md5": [
@@ -285,7 +285,7 @@
       "id": "CISCO-THREAT-58428_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33160: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319128, 
       "iocs": {
         "query": [
@@ -304,7 +304,7 @@
       "id": "CISCO-THREAT-58428_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33105: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319130, 
       "iocs": {
         "md5": [
@@ -316,7 +316,7 @@
       "id": "CISCO-THREAT-58429_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33105: Email Messages Distributing Malicious Software on July 11, 2018", 
       "timestamp": 1531319130, 
       "iocs": {
         "query": [
@@ -331,7 +331,7 @@
       "id": "CISCO-THREAT-58429_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33135: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891652, 
       "iocs": {
         "md5": [
@@ -343,7 +343,7 @@
       "id": "CISCO-THREAT-58385_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33135: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891652, 
       "iocs": {
         "query": [
@@ -362,7 +362,7 @@
       "id": "CISCO-THREAT-58385_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33133: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891650, 
       "iocs": {
         "md5": [
@@ -374,7 +374,7 @@
       "id": "CISCO-THREAT-58384_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33133: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891650, 
       "iocs": {
         "query": [
@@ -397,7 +397,7 @@
       "id": "CISCO-THREAT-58384_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33140: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891656, 
       "iocs": {
         "md5": [
@@ -409,7 +409,7 @@
       "id": "CISCO-THREAT-58387_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33140: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891656, 
       "iocs": {
         "query": [
@@ -432,7 +432,7 @@
       "id": "CISCO-THREAT-58387_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33138: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891654, 
       "iocs": {
         "md5": [
@@ -444,7 +444,7 @@
       "id": "CISCO-THREAT-58386_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33138: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891654, 
       "iocs": {
         "query": [
@@ -463,7 +463,7 @@
       "id": "CISCO-THREAT-58386_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33007: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530931777, 
       "iocs": {
         "md5": [
@@ -475,7 +475,7 @@
       "id": "CISCO-THREAT-58381_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33007: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530931777, 
       "iocs": {
         "query": [
@@ -494,7 +494,7 @@
       "id": "CISCO-THREAT-58381_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33132: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891648, 
       "iocs": {
         "md5": [
@@ -506,7 +506,7 @@
       "id": "CISCO-THREAT-58383_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33132: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891648, 
       "iocs": {
         "query": [
@@ -529,7 +529,7 @@
       "id": "CISCO-THREAT-58383_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33009: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891646, 
       "iocs": {
         "md5": [
@@ -541,7 +541,7 @@
       "id": "CISCO-THREAT-58382_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33009: Email Messages Distributing Malicious Software on July 6, 2018", 
       "timestamp": 1530891646, 
       "iocs": {
         "query": [
@@ -556,7 +556,7 @@
       "id": "CISCO-THREAT-58382_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33060: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626214, 
       "iocs": {
         "md5": [
@@ -568,7 +568,7 @@
       "id": "CISCO-THREAT-58330_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33060: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626214, 
       "iocs": {
         "query": [
@@ -587,7 +587,7 @@
       "id": "CISCO-THREAT-58330_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33096: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628394, 
       "iocs": {
         "md5": [
@@ -599,7 +599,7 @@
       "id": "CISCO-THREAT-58331_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33096: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628394, 
       "iocs": {
         "query": [
@@ -618,7 +618,7 @@
       "id": "CISCO-THREAT-58331_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33092: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628396, 
       "iocs": {
         "md5": [
@@ -630,7 +630,7 @@
       "id": "CISCO-THREAT-58332_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33092: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628396, 
       "iocs": {
         "query": [
@@ -649,7 +649,7 @@
       "id": "CISCO-THREAT-58332_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33094: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628398, 
       "iocs": {
         "md5": [
@@ -661,7 +661,7 @@
       "id": "CISCO-THREAT-58333_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33094: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628398, 
       "iocs": {
         "query": [
@@ -684,7 +684,7 @@
       "id": "CISCO-THREAT-58333_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33089: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628400, 
       "iocs": {
         "md5": [
@@ -696,7 +696,7 @@
       "id": "CISCO-THREAT-58334_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33089: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530628400, 
       "iocs": {
         "query": [
@@ -715,7 +715,7 @@
       "id": "CISCO-THREAT-58334_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33087: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632000, 
       "iocs": {
         "md5": [
@@ -727,7 +727,7 @@
       "id": "CISCO-THREAT-58335_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33087: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632000, 
       "iocs": {
         "query": [
@@ -750,7 +750,7 @@
       "id": "CISCO-THREAT-58335_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33091: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632002, 
       "iocs": {
         "md5": [
@@ -762,7 +762,7 @@
       "id": "CISCO-THREAT-58336_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33091: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632002, 
       "iocs": {
         "query": [
@@ -785,7 +785,7 @@
       "id": "CISCO-THREAT-58336_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33085: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632004, 
       "iocs": {
         "md5": [
@@ -797,7 +797,7 @@
       "id": "CISCO-THREAT-58337_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33085: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632004, 
       "iocs": {
         "query": [
@@ -820,7 +820,7 @@
       "id": "CISCO-THREAT-58337_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33084: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632006, 
       "iocs": {
         "md5": [
@@ -832,7 +832,7 @@
       "id": "CISCO-THREAT-58338_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33084: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632006, 
       "iocs": {
         "query": [
@@ -855,7 +855,7 @@
       "id": "CISCO-THREAT-58338_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33083: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632008, 
       "iocs": {
         "md5": [
@@ -867,7 +867,7 @@
       "id": "CISCO-THREAT-58339_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33083: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530632008, 
       "iocs": {
         "query": [
@@ -886,7 +886,7 @@
       "id": "CISCO-THREAT-58339_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33043: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529698807, 
       "iocs": {
         "md5": [
@@ -898,7 +898,7 @@
       "id": "CISCO-THREAT-58278_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33043: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529698807, 
       "iocs": {
         "query": [
@@ -917,7 +917,7 @@
       "id": "CISCO-THREAT-58278_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33112: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805421, 
       "iocs": {
         "md5": [
@@ -929,7 +929,7 @@
       "id": "CISCO-THREAT-58352_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33112: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805421, 
       "iocs": {
         "query": [
@@ -952,7 +952,7 @@
       "id": "CISCO-THREAT-58352_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33110: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805423, 
       "iocs": {
         "md5": [
@@ -964,7 +964,7 @@
       "id": "CISCO-THREAT-58353_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33110: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805423, 
       "iocs": {
         "query": [
@@ -983,7 +983,7 @@
       "id": "CISCO-THREAT-58353_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33113: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805419, 
       "iocs": {
         "md5": [
@@ -995,7 +995,7 @@
       "id": "CISCO-THREAT-58351_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33113: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805419, 
       "iocs": {
         "query": [
@@ -1022,7 +1022,7 @@
       "id": "CISCO-THREAT-58351_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33103: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805414, 
       "iocs": {
         "md5": [
@@ -1034,7 +1034,7 @@
       "id": "CISCO-THREAT-58356_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33103: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805414, 
       "iocs": {
         "query": [
@@ -1057,7 +1057,7 @@
       "id": "CISCO-THREAT-58356_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33102: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805416, 
       "iocs": {
         "md5": [
@@ -1069,7 +1069,7 @@
       "id": "CISCO-THREAT-58357_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33102: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805416, 
       "iocs": {
         "query": [
@@ -1092,7 +1092,7 @@
       "id": "CISCO-THREAT-58357_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33109: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805425, 
       "iocs": {
         "md5": [
@@ -1104,7 +1104,7 @@
       "id": "CISCO-THREAT-58354_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33109: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805425, 
       "iocs": {
         "query": [
@@ -1123,7 +1123,7 @@
       "id": "CISCO-THREAT-58354_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33107: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805411, 
       "iocs": {
         "md5": [
@@ -1135,7 +1135,7 @@
       "id": "CISCO-THREAT-58355_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33107: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805411, 
       "iocs": {
         "query": [
@@ -1154,7 +1154,7 @@
       "id": "CISCO-THREAT-58355_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33101: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805395, 
       "iocs": {
         "md5": [
@@ -1166,7 +1166,7 @@
       "id": "CISCO-THREAT-58358_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33101: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805395, 
       "iocs": {
         "query": [
@@ -1185,7 +1185,7 @@
       "id": "CISCO-THREAT-58358_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33098: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805397, 
       "iocs": {
         "md5": [
@@ -1197,7 +1197,7 @@
       "id": "CISCO-THREAT-58359_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33098: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805397, 
       "iocs": {
         "query": [
@@ -1212,7 +1212,7 @@
       "id": "CISCO-THREAT-58359_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33080: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626218, 
       "iocs": {
         "md5": [
@@ -1224,7 +1224,7 @@
       "id": "CISCO-THREAT-58327_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33080: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626218, 
       "iocs": {
         "query": [
@@ -1243,7 +1243,7 @@
       "id": "CISCO-THREAT-58327_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33079: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626217, 
       "iocs": {
         "md5": [
@@ -1255,7 +1255,7 @@
       "id": "CISCO-THREAT-58326_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33079: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626217, 
       "iocs": {
         "query": [
@@ -1274,7 +1274,7 @@
       "id": "CISCO-THREAT-58326_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33075: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626215, 
       "iocs": {
         "md5": [
@@ -1286,7 +1286,7 @@
       "id": "CISCO-THREAT-58325_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33075: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626215, 
       "iocs": {
         "query": [
@@ -1305,7 +1305,7 @@
       "id": "CISCO-THREAT-58325_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33074: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300035, 
       "iocs": {
         "md5": [
@@ -1317,7 +1317,7 @@
       "id": "CISCO-THREAT-58323_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33074: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300035, 
       "iocs": {
         "query": [
@@ -1340,7 +1340,7 @@
       "id": "CISCO-THREAT-58323_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33024: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300033, 
       "iocs": {
         "md5": [
@@ -1352,7 +1352,7 @@
       "id": "CISCO-THREAT-58322_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33024: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300033, 
       "iocs": {
         "query": [
@@ -1367,7 +1367,7 @@
       "id": "CISCO-THREAT-58322_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33073: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300040, 
       "iocs": {
         "md5": [
@@ -1379,7 +1379,7 @@
       "id": "CISCO-THREAT-58321_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33073: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300040, 
       "iocs": {
         "query": [
@@ -1402,7 +1402,7 @@
       "id": "CISCO-THREAT-58321_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33071: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300037, 
       "iocs": {
         "md5": [
@@ -1414,7 +1414,7 @@
       "id": "CISCO-THREAT-58320_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33071: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530300037, 
       "iocs": {
         "query": [
@@ -1433,7 +1433,7 @@
       "id": "CISCO-THREAT-58320_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33068: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626211, 
       "iocs": {
         "md5": [
@@ -1445,7 +1445,7 @@
       "id": "CISCO-THREAT-58329_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33068: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626211, 
       "iocs": {
         "query": [
@@ -1464,7 +1464,7 @@
       "id": "CISCO-THREAT-58329_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32582: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626220, 
       "iocs": {
         "md5": [
@@ -1476,7 +1476,7 @@
       "id": "CISCO-THREAT-58328_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32582: Email Messages Distributing Malicious Software on July 2, 2018", 
       "timestamp": 1530626220, 
       "iocs": {
         "query": [
@@ -1495,7 +1495,7 @@
       "id": "CISCO-THREAT-58328_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33100: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530642974, 
       "iocs": {
         "md5": [
@@ -1507,7 +1507,7 @@
       "id": "CISCO-THREAT-58341_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33100: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530642974, 
       "iocs": {
         "query": [
@@ -1526,7 +1526,7 @@
       "id": "CISCO-THREAT-58341_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33099: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530642976, 
       "iocs": {
         "md5": [
@@ -1538,7 +1538,7 @@
       "id": "CISCO-THREAT-58340_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33099: Email Messages Distributing Malicious Software on July 3, 2018", 
       "timestamp": 1530642976, 
       "iocs": {
         "query": [
@@ -1557,7 +1557,7 @@
       "id": "CISCO-THREAT-58340_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33050: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954264, 
       "iocs": {
         "md5": [
@@ -1569,7 +1569,7 @@
       "id": "CISCO-THREAT-58291_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33050: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954264, 
       "iocs": {
         "query": [
@@ -1588,7 +1588,7 @@
       "id": "CISCO-THREAT-58291_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33049: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954737, 
       "iocs": {
         "md5": [
@@ -1600,7 +1600,7 @@
       "id": "CISCO-THREAT-58290_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33049: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954737, 
       "iocs": {
         "query": [
@@ -1619,7 +1619,7 @@
       "id": "CISCO-THREAT-58290_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33015: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028587, 
       "iocs": {
         "md5": [
@@ -1631,7 +1631,7 @@
       "id": "CISCO-THREAT-58297_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33015: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028587, 
       "iocs": {
         "query": [
@@ -1650,7 +1650,7 @@
       "id": "CISCO-THREAT-58297_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32978: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028585, 
       "iocs": {
         "md5": [
@@ -1662,7 +1662,7 @@
       "id": "CISCO-THREAT-58296_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32978: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028585, 
       "iocs": {
         "query": [
@@ -1677,7 +1677,7 @@
       "id": "CISCO-THREAT-58296_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33053: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028591, 
       "iocs": {
         "md5": [
@@ -1689,7 +1689,7 @@
       "id": "CISCO-THREAT-58299_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33053: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028591, 
       "iocs": {
         "query": [
@@ -1708,7 +1708,7 @@
       "id": "CISCO-THREAT-58299_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33052: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028589, 
       "iocs": {
         "md5": [
@@ -1720,7 +1720,7 @@
       "id": "CISCO-THREAT-58298_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33052: Email Messages Distributing Malicious Software on June 26, 2018", 
       "timestamp": 1530028589, 
       "iocs": {
         "query": [
@@ -1743,7 +1743,7 @@
       "id": "CISCO-THREAT-58298_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33127: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808779, 
       "iocs": {
         "md5": [
@@ -1755,7 +1755,7 @@
       "id": "CISCO-THREAT-58374_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33127: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808779, 
       "iocs": {
         "query": [
@@ -1774,7 +1774,7 @@
       "id": "CISCO-THREAT-58374_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33129: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808782, 
       "iocs": {
         "md5": [
@@ -1786,7 +1786,7 @@
       "id": "CISCO-THREAT-58375_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33129: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808782, 
       "iocs": {
         "query": [
@@ -1809,7 +1809,7 @@
       "id": "CISCO-THREAT-58375_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33122: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808784, 
       "iocs": {
         "md5": [
@@ -1821,7 +1821,7 @@
       "id": "CISCO-THREAT-58376_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33122: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808784, 
       "iocs": {
         "query": [
@@ -1840,7 +1840,7 @@
       "id": "CISCO-THREAT-58376_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33130: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808786, 
       "iocs": {
         "md5": [
@@ -1852,7 +1852,7 @@
       "id": "CISCO-THREAT-58377_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33130: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808786, 
       "iocs": {
         "query": [
@@ -1871,7 +1871,7 @@
       "id": "CISCO-THREAT-58377_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33117: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805612, 
       "iocs": {
         "md5": [
@@ -1883,7 +1883,7 @@
       "id": "CISCO-THREAT-58370_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33117: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805612, 
       "iocs": {
         "query": [
@@ -1902,7 +1902,7 @@
       "id": "CISCO-THREAT-58370_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33119: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805615, 
       "iocs": {
         "md5": [
@@ -1914,7 +1914,7 @@
       "id": "CISCO-THREAT-58371_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33119: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805615, 
       "iocs": {
         "query": [
@@ -1933,7 +1933,7 @@
       "id": "CISCO-THREAT-58371_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33123: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805621, 
       "iocs": {
         "md5": [
@@ -1945,7 +1945,7 @@
       "id": "CISCO-THREAT-58372_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33123: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805621, 
       "iocs": {
         "query": [
@@ -1964,7 +1964,7 @@
       "id": "CISCO-THREAT-58372_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33124: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805624, 
       "iocs": {
         "md5": [
@@ -1976,7 +1976,7 @@
       "id": "CISCO-THREAT-58373_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33124: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805624, 
       "iocs": {
         "query": [
@@ -1999,7 +1999,7 @@
       "id": "CISCO-THREAT-58373_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33045: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529674757, 
       "iocs": {
         "md5": [
@@ -2011,7 +2011,7 @@
       "id": "CISCO-THREAT-58275_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33045: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529674757, 
       "iocs": {
         "query": [
@@ -2030,7 +2030,7 @@
       "id": "CISCO-THREAT-58275_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33040: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529674755, 
       "iocs": {
         "md5": [
@@ -2042,7 +2042,7 @@
       "id": "CISCO-THREAT-58274_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33040: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529674755, 
       "iocs": {
         "query": [
@@ -2061,7 +2061,7 @@
       "id": "CISCO-THREAT-58274_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33042: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529698805, 
       "iocs": {
         "md5": [
@@ -2073,7 +2073,7 @@
       "id": "CISCO-THREAT-58277_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33042: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529698805, 
       "iocs": {
         "query": [
@@ -2092,7 +2092,7 @@
       "id": "CISCO-THREAT-58277_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32983: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529674759, 
       "iocs": {
         "md5": [
@@ -2104,7 +2104,7 @@
       "id": "CISCO-THREAT-58276_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32983: Email Messages Distributing Malicious Software on June 22, 2018", 
       "timestamp": 1529674759, 
       "iocs": {
         "query": [
@@ -2123,7 +2123,7 @@
       "id": "CISCO-THREAT-58276_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33131: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808788, 
       "iocs": {
         "md5": [
@@ -2135,7 +2135,7 @@
       "id": "CISCO-THREAT-58378_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33131: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808788, 
       "iocs": {
         "query": [
@@ -2154,7 +2154,7 @@
       "id": "CISCO-THREAT-58378_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33059: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808791, 
       "iocs": {
         "md5": [
@@ -2166,7 +2166,7 @@
       "id": "CISCO-THREAT-58379_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33059: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530808791, 
       "iocs": {
         "query": [
@@ -2185,7 +2185,7 @@
       "id": "CISCO-THREAT-58379_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33108: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805392, 
       "iocs": {
         "md5": [
@@ -2197,7 +2197,7 @@
       "id": "CISCO-THREAT-58369_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33108: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805392, 
       "iocs": {
         "query": [
@@ -2220,7 +2220,7 @@
       "id": "CISCO-THREAT-58369_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33106: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805389, 
       "iocs": {
         "md5": [
@@ -2232,7 +2232,7 @@
       "id": "CISCO-THREAT-58368_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33106: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805389, 
       "iocs": {
         "query": [
@@ -2251,7 +2251,7 @@
       "id": "CISCO-THREAT-58368_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33104: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805408, 
       "iocs": {
         "md5": [
@@ -2263,7 +2263,7 @@
       "id": "CISCO-THREAT-58363_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33104: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805408, 
       "iocs": {
         "query": [
@@ -2286,7 +2286,7 @@
       "id": "CISCO-THREAT-58363_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33069: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805404, 
       "iocs": {
         "md5": [
@@ -2298,7 +2298,7 @@
       "id": "CISCO-THREAT-58362_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33069: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805404, 
       "iocs": {
         "query": [
@@ -2321,7 +2321,7 @@
       "id": "CISCO-THREAT-58362_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33088: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805401, 
       "iocs": {
         "md5": [
@@ -2333,7 +2333,7 @@
       "id": "CISCO-THREAT-58361_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33088: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805401, 
       "iocs": {
         "query": [
@@ -2352,7 +2352,7 @@
       "id": "CISCO-THREAT-58361_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33090: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805399, 
       "iocs": {
         "md5": [
@@ -2364,7 +2364,7 @@
       "id": "CISCO-THREAT-58360_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33090: Email Messages Distributing Malicious Software on July 4, 2018", 
       "timestamp": 1530805399, 
       "iocs": {
         "query": [
@@ -2387,7 +2387,7 @@
       "id": "CISCO-THREAT-58360_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33095: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805387, 
       "iocs": {
         "md5": [
@@ -2399,7 +2399,7 @@
       "id": "CISCO-THREAT-58367_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33095: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805387, 
       "iocs": {
         "query": [
@@ -2414,7 +2414,7 @@
       "id": "CISCO-THREAT-58367_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33093: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805384, 
       "iocs": {
         "md5": [
@@ -2426,7 +2426,7 @@
       "id": "CISCO-THREAT-58366_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33093: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805384, 
       "iocs": {
         "query": [
@@ -2441,7 +2441,7 @@
       "id": "CISCO-THREAT-58366_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33078: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805382, 
       "iocs": {
         "md5": [
@@ -2453,7 +2453,7 @@
       "id": "CISCO-THREAT-58365_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33078: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805382, 
       "iocs": {
         "query": [
@@ -2476,7 +2476,7 @@
       "id": "CISCO-THREAT-58365_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32984: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805379, 
       "iocs": {
         "md5": [
@@ -2488,7 +2488,7 @@
       "id": "CISCO-THREAT-58364_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32984: Email Messages Distributing Malicious Software on July 5, 2018", 
       "timestamp": 1530805379, 
       "iocs": {
         "query": [
@@ -2503,7 +2503,7 @@
       "id": "CISCO-THREAT-58364_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33044: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954200, 
       "iocs": {
         "md5": [
@@ -2515,7 +2515,7 @@
       "id": "CISCO-THREAT-58289_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33044: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954200, 
       "iocs": {
         "query": [
@@ -2534,7 +2534,7 @@
       "id": "CISCO-THREAT-58289_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33055: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234218, 
       "iocs": {
         "md5": [
@@ -2546,7 +2546,7 @@
       "id": "CISCO-THREAT-58407_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33055: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234218, 
       "iocs": {
         "query": [
@@ -2561,7 +2561,7 @@
       "id": "CISCO-THREAT-58407_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33141: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234220, 
       "iocs": {
         "md5": [
@@ -2573,7 +2573,7 @@
       "id": "CISCO-THREAT-58408_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33141: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234220, 
       "iocs": {
         "query": [
@@ -2596,7 +2596,7 @@
       "id": "CISCO-THREAT-58408_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33143: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234223, 
       "iocs": {
         "md5": [
@@ -2608,7 +2608,7 @@
       "id": "CISCO-THREAT-58409_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33143: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234223, 
       "iocs": {
         "query": [
@@ -2631,7 +2631,7 @@
       "id": "CISCO-THREAT-58409_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33067: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530326425, 
       "iocs": {
         "md5": [
@@ -2643,7 +2643,7 @@
       "id": "CISCO-THREAT-58319_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33067: Email Messages Distributing Malicious Software on June 29, 2018", 
       "timestamp": 1530326425, 
       "iocs": {
         "query": [
@@ -2658,7 +2658,7 @@
       "id": "CISCO-THREAT-58319_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33061: Email Messages Distributing Malicious Software on June 28, 2018", 
       "timestamp": 1530219836, 
       "iocs": {
         "md5": [
@@ -2670,7 +2670,7 @@
       "id": "CISCO-THREAT-58310_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33061: Email Messages Distributing Malicious Software on June 28, 2018", 
       "timestamp": 1530219836, 
       "iocs": {
         "query": [
@@ -2685,7 +2685,7 @@
       "id": "CISCO-THREAT-58310_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33151: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234202, 
       "iocs": {
         "md5": [
@@ -2697,7 +2697,7 @@
       "id": "CISCO-THREAT-58411_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33151: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234202, 
       "iocs": {
         "query": [
@@ -2716,7 +2716,7 @@
       "id": "CISCO-THREAT-58411_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33147: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234225, 
       "iocs": {
         "md5": [
@@ -2728,7 +2728,7 @@
       "id": "CISCO-THREAT-58410_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33147: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234225, 
       "iocs": {
         "query": [
@@ -2751,7 +2751,7 @@
       "id": "CISCO-THREAT-58410_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33152: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234208, 
       "iocs": {
         "md5": [
@@ -2763,7 +2763,7 @@
       "id": "CISCO-THREAT-58413_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33152: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234208, 
       "iocs": {
         "query": [
@@ -2786,7 +2786,7 @@
       "id": "CISCO-THREAT-58413_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33146: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234205, 
       "iocs": {
         "md5": [
@@ -2798,7 +2798,7 @@
       "id": "CISCO-THREAT-58412_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33146: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234205, 
       "iocs": {
         "query": [
@@ -2821,7 +2821,7 @@
       "id": "CISCO-THREAT-58412_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33154: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234213, 
       "iocs": {
         "md5": [
@@ -2833,7 +2833,7 @@
       "id": "CISCO-THREAT-58415_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33154: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234213, 
       "iocs": {
         "query": [
@@ -2852,7 +2852,7 @@
       "id": "CISCO-THREAT-58415_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33153: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234210, 
       "iocs": {
         "md5": [
@@ -2864,7 +2864,7 @@
       "id": "CISCO-THREAT-58414_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33153: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234210, 
       "iocs": {
         "query": [
@@ -2887,7 +2887,7 @@
       "id": "CISCO-THREAT-58414_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33159: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234215, 
       "iocs": {
         "md5": [
@@ -2899,7 +2899,7 @@
       "id": "CISCO-THREAT-58416_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33159: Email Messages Distributing Malicious Software on July 10, 2018", 
       "timestamp": 1531234215, 
       "iocs": {
         "query": [
@@ -2918,7 +2918,7 @@
       "id": "CISCO-THREAT-58416_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33011: Email Messages Distributing Malicious Software on June 28, 2018", 
       "timestamp": 1530219834, 
       "iocs": {
         "md5": [
@@ -2930,7 +2930,7 @@
       "id": "CISCO-THREAT-58309_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33011: Email Messages Distributing Malicious Software on June 28, 2018", 
       "timestamp": 1530219834, 
       "iocs": {
         "query": [
@@ -2945,7 +2945,7 @@
       "id": "CISCO-THREAT-58309_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32999: Email Messages Distributing Malicious Software on June 28, 2018", 
       "timestamp": 1530219832, 
       "iocs": {
         "md5": [
@@ -2957,7 +2957,7 @@
       "id": "CISCO-THREAT-58308_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32999: Email Messages Distributing Malicious Software on June 28, 2018", 
       "timestamp": 1530219832, 
       "iocs": {
         "query": [
@@ -2972,7 +2972,7 @@
       "id": "CISCO-THREAT-58308_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33048: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954739, 
       "iocs": {
         "md5": [
@@ -2984,7 +2984,7 @@
       "id": "CISCO-THREAT-58288_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33048: Email Messages Distributing Malicious Software on June 25, 2018", 
       "timestamp": 1529954739, 
       "iocs": {
         "query": [
@@ -3007,7 +3007,7 @@
       "id": "CISCO-THREAT-58288_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33057: Email Messages Distributing Malicious Software on June 27, 2018", 
       "timestamp": 1530116842, 
       "iocs": {
         "md5": [
@@ -3019,7 +3019,7 @@
       "id": "CISCO-THREAT-58303_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33057: Email Messages Distributing Malicious Software on June 27, 2018", 
       "timestamp": 1530116842, 
       "iocs": {
         "query": [
@@ -3038,7 +3038,7 @@
       "id": "CISCO-THREAT-58303_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32964: Email Messages Distributing Malicious Software on June 27, 2018", 
       "timestamp": 1530116839, 
       "iocs": {
         "md5": [
@@ -3050,7 +3050,7 @@
       "id": "CISCO-THREAT-58302_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID32964: Email Messages Distributing Malicious Software on June 27, 2018", 
       "timestamp": 1530116839, 
       "iocs": {
         "query": [
@@ -3073,7 +3073,7 @@
       "id": "CISCO-THREAT-58302_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33056: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148821, 
       "iocs": {
         "md5": [
@@ -3085,7 +3085,7 @@
       "id": "CISCO-THREAT-58394_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33056: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148821, 
       "iocs": {
         "query": [
@@ -3100,7 +3100,7 @@
       "id": "CISCO-THREAT-58394_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33128: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148817, 
       "iocs": {
         "md5": [
@@ -3112,7 +3112,7 @@
       "id": "CISCO-THREAT-58392_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33128: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148817, 
       "iocs": {
         "query": [
@@ -3131,7 +3131,7 @@
       "id": "CISCO-THREAT-58392_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33125: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148819, 
       "iocs": {
         "md5": [
@@ -3143,7 +3143,7 @@
       "id": "CISCO-THREAT-58393_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33125: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148819, 
       "iocs": {
         "query": [
@@ -3162,7 +3162,7 @@
       "id": "CISCO-THREAT-58393_files"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33136: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148814, 
       "iocs": {
         "md5": [
@@ -3174,7 +3174,7 @@
       "id": "CISCO-THREAT-58391_md5"
     }, 
     {
-      "title": "Cisco Threat Outbreak Alert", 
+      "title": "Threat Outbreak Alert RuleID33136: Email Messages Distributing Malicious Software on July 9, 2018", 
       "timestamp": 1531148814, 
       "iocs": {
         "query": [
