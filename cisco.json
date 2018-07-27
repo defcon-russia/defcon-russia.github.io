@@ -27,19 +27,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22egypt_order_2018.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22egypt_order_2018.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22egypt_order_2018.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22egypt_order_2018.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22egypt_order_2018.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22egypt_order_2018.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58424", 
       "id": "CISCO-THREAT-58424_files"
     }, 
@@ -62,19 +62,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22hsbc_payment_notice.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hsbc_payment_notice.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22hsbc_payment_notice.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hsbc_payment_notice.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22hsbc_payment_notice.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hsbc_payment_notice.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58425", 
       "id": "CISCO-THREAT-58425_files"
     }, 
@@ -97,15 +97,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%20-%20ref%5Bgb1860369674%5D%20priority%20payment%20customer%20ref%5B0000568988%5D.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58426", 
       "id": "CISCO-THREAT-58426_files"
     }, 
@@ -128,15 +128,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22order213.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order213.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22order213.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order213.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58427", 
       "id": "CISCO-THREAT-58427_files"
     }, 
@@ -159,19 +159,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_mtk1007_018_pdf..zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_mtk1007_018_pdf..zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_mtk1007_018_pdf..rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_mtk1007_018_pdf..rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_mtk1007_018_pdf..exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_mtk1007_018_pdf..exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58420", 
       "id": "CISCO-THREAT-58420_files"
     }, 
@@ -194,15 +194,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22dhl%20checklist.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20checklist.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22dhl%20checklist.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20checklist.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58421", 
       "id": "CISCO-THREAT-58421_files"
     }, 
@@ -225,19 +225,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22rfq_1743190_xlc.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22rfq_1743190_xlc.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22rfq_1743190_xlc.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22rfq_1743190_xlc.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22rfq_1743190_xlc.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22rfq_1743190_xlc.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58422", 
       "id": "CISCO-THREAT-58422_files"
     }, 
@@ -260,15 +260,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22dhl%20receipt_pdf.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20receipt_pdf.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22eccc2day_output48e55c0.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22eccc2day_output48e55c0.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58423", 
       "id": "CISCO-THREAT-58423_files"
     }, 
@@ -291,15 +291,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22swift09017.7z%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22swift09017.7z%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22swift09017.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22swift09017.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58428", 
       "id": "CISCO-THREAT-58428_files"
     }, 
@@ -322,11 +322,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22remittance.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22remittance.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58429", 
       "id": "CISCO-THREAT-58429_files"
     }, 
@@ -349,15 +349,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22draft%20bl%20and%20shiipping%20document_pdf.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22draft%20bl%20and%20shiipping%20document_pdf.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22draft%20bl%20and%20shiipping%20document_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22draft%20bl%20and%20shiipping%20document_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58385", 
       "id": "CISCO-THREAT-58385_files"
     }, 
@@ -380,19 +380,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv%20pan%20gloris%20ii.pdf.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv%20pan%20gloris%20ii.pdf.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv%20pan%20gloris%20ii.pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv%20pan%20gloris%20ii.pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22blu%20-%20requisition_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22blu%20-%20requisition_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58384", 
       "id": "CISCO-THREAT-58384_files"
     }, 
@@ -415,19 +415,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment-advice.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment-advice.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment-advice.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58387", 
       "id": "CISCO-THREAT-58387_files"
     }, 
@@ -450,15 +450,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scansione%20documenti0068.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scansione%20documenti0068.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scansione-5.vbs%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scansione-5.vbs%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58386", 
       "id": "CISCO-THREAT-58386_files"
     }, 
@@ -481,15 +481,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22descompactar.para.imprimir_16-06-2018.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22descompactar.para.imprimir_16-06-2018.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22segunda%20via%20boleto%20venc-16-06-2018.cmd.cmd%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22segunda%20via%20boleto%20venc-16-06-2018.cmd.cmd%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58381", 
       "id": "CISCO-THREAT-58381_files"
     }, 
@@ -512,19 +512,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan02_a17826f.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan02_a17826f.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan02_a17826f.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan02_a17826f.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan02_a17826f.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan02_a17826f.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58383", 
       "id": "CISCO-THREAT-58383_files"
     }, 
@@ -547,11 +547,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22pago.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pago.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58382", 
       "id": "CISCO-THREAT-58382_files"
     }, 
@@ -574,15 +574,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%224354-3897248.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%224354-3897248.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22sec_files_capost%26royalmail.vbs%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22sec_files_capost%26royalmail.vbs%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58330", 
       "id": "CISCO-THREAT-58330_files"
     }, 
@@ -605,15 +605,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan%20copy%20-%20invoice%201018087_pdf.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan%20copy%20-%20invoice%201018087_pdf.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_output2f036b0.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_output2f036b0.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58331", 
       "id": "CISCO-THREAT-58331_files"
     }, 
@@ -636,15 +636,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc_scan_hf087.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_scan_hf087.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc_scan_hf087.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_scan_hf087.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58332", 
       "id": "CISCO-THREAT-58332_files"
     }, 
@@ -667,19 +667,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22new%20orderfile..zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20orderfile..zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22new%20orderfile..rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20orderfile..rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22fb.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22fb.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58333", 
       "id": "CISCO-THREAT-58333_files"
     }, 
@@ -702,15 +702,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mineral%20specification.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mineral%20specification.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mineral%20specification.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mineral%20specification.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58334", 
       "id": "CISCO-THREAT-58334_files"
     }, 
@@ -733,19 +733,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mt%20sk%20line%201.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mt%20sk%20line%201.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mt%20sk%20line%201.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mt%20sk%20line%201.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mt%20sk%20line%201.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mt%20sk%20line%201.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58335", 
       "id": "CISCO-THREAT-58335_files"
     }, 
@@ -768,19 +768,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.%20shail%20al%20ruwais%20vsl%20descripton%20contact%20details.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58336", 
       "id": "CISCO-THREAT-58336_files"
     }, 
@@ -803,19 +803,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22shipping%20document_pdf.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22shipping%20document_pdf.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22shipping%20document_pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22shipping%20document_pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22shipping%20document_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22shipping%20document_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58337", 
       "id": "CISCO-THREAT-58337_files"
     }, 
@@ -838,19 +838,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_798893877_doc.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_798893877_doc.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_798893877_doc.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_798893877_doc.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_798893877_doc.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_798893877_doc.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58338", 
       "id": "CISCO-THREAT-58338_files"
     }, 
@@ -873,15 +873,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv%20xenios.pdf.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv%20xenios.pdf.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22maccccc.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22maccccc.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58339", 
       "id": "CISCO-THREAT-58339_files"
     }, 
@@ -904,15 +904,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22adoc%20rfq-wcms-18097255.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22adoc%20rfq-wcms-18097255.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22adoc%20rfq-wcms-18097255.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22adoc%20rfq-wcms-18097255.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58278", 
       "id": "CISCO-THREAT-58278_files"
     }, 
@@ -935,19 +935,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22halia%20req.%202018pdf.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22halia%20req.%202018pdf.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22halia%20req.%202018pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22halia%20req.%202018pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22halia%20req.%202018pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22halia%20req.%202018pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58352", 
       "id": "CISCO-THREAT-58352_files"
     }, 
@@ -970,15 +970,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22no%20fc-21565-project%20specification.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%20fc-21565-project%20specification.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22no%20fc-21565-project%20specification.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%20fc-21565-project%20specification.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58353", 
       "id": "CISCO-THREAT-58353_files"
     }, 
@@ -1001,23 +1001,23 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc_00044583-pdf_%282%29%20%281%29.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf_%282%29%20%281%29.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc_00044583-pdf_%282%29%20%281%29.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf_%282%29%20%281%29.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc_00044583-pdf.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc_00044583-pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc_00044583-pdf.rar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58351", 
       "id": "CISCO-THREAT-58351_files"
     }, 
@@ -1040,19 +1040,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv_sophia_docs.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_sophia_docs.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv_sophia_docs.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_sophia_docs.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv_sophia_docs.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_sophia_docs.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58356", 
       "id": "CISCO-THREAT-58356_files"
     }, 
@@ -1075,19 +1075,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22po.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22po.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22po.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58357", 
       "id": "CISCO-THREAT-58357_files"
     }, 
@@ -1110,15 +1110,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv_ocean_glory_pdf.xz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_ocean_glory_pdf.xz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv_ocean_glory_tkh-a801b_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv_ocean_glory_tkh-a801b_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58354", 
       "id": "CISCO-THREAT-58354_files"
     }, 
@@ -1141,15 +1141,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22soa-june.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22soa-june.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22soa-june.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22soa-june.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58355", 
       "id": "CISCO-THREAT-58355_files"
     }, 
@@ -1172,15 +1172,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22remittance%20advice_scan%20copy.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22remittance%20advice_scan%20copy.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22%40ss.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22%40ss.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58358", 
       "id": "CISCO-THREAT-58358_files"
     }, 
@@ -1203,11 +1203,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%2247136752.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2247136752.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58359", 
       "id": "CISCO-THREAT-58359_files"
     }, 
@@ -1230,15 +1230,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ttswiftcopy.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ttswiftcopy.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ttswiftcopy.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ttswiftcopy.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58327", 
       "id": "CISCO-THREAT-58327_files"
     }, 
@@ -1261,15 +1261,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22new%20order%20m.v%20inc.%20ltd.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20order%20m.v%20inc.%20ltd.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22paytt.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22paytt.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58326", 
       "id": "CISCO-THREAT-58326_files"
     }, 
@@ -1292,15 +1292,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_euro%20invoice.7z%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_euro%20invoice.7z%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22jboy.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22jboy.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58325", 
       "id": "CISCO-THREAT-58325_files"
     }, 
@@ -1323,19 +1323,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_ord_062518857584_doc.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_ord_062518857584_doc.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_ord_062518857584_doc.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_ord_062518857584_doc.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22_ord_062518857584_doc.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22_ord_062518857584_doc.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58323", 
       "id": "CISCO-THREAT-58323_files"
     }, 
@@ -1358,11 +1358,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22pdf_po%20%23%20fg-100732%20for%20next%20shipment.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pdf_po%20%23%20fg-100732%20for%20next%20shipment.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58322", 
       "id": "CISCO-THREAT-58322_files"
     }, 
@@ -1385,19 +1385,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment-advice.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment-advice.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment-advice.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment-advice.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58321", 
       "id": "CISCO-THREAT-58321_files"
     }, 
@@ -1420,15 +1420,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22i599241.r11%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22i599241.r11%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22chima.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22chima.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58320", 
       "id": "CISCO-THREAT-58320_files"
     }, 
@@ -1451,15 +1451,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ulzyymuank_po.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ulzyymuank_po.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22cv.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22cv.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58329", 
       "id": "CISCO-THREAT-58329_files"
     }, 
@@ -1482,15 +1482,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ulzyymuank_po.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ulzyymuank_po.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ulzyymuank_po.vbs%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ulzyymuank_po.vbs%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58328", 
       "id": "CISCO-THREAT-58328_files"
     }, 
@@ -1513,15 +1513,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment_image%23004579721%20-%20copy.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment_image%23004579721%20-%20copy.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment_image%23004579721%20-%20copy.scr%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment_image%23004579721%20-%20copy.scr%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58341", 
       "id": "CISCO-THREAT-58341_files"
     }, 
@@ -1544,15 +1544,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pall%20enquiry%20no%20fc-21565project%20specification_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58340", 
       "id": "CISCO-THREAT-58340_files"
     }, 
@@ -1575,15 +1575,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment%20copy.ace%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20copy.ace%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22new%20order.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22new%20order.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58291", 
       "id": "CISCO-THREAT-58291_files"
     }, 
@@ -1606,15 +1606,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22request%20quotations.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22request%20quotations.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22iykee.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22iykee.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58290", 
       "id": "CISCO-THREAT-58290_files"
     }, 
@@ -1637,15 +1637,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22comprovante.pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22comprovante.pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22comprovante%20pagamento.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22comprovante%20pagamento.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58297", 
       "id": "CISCO-THREAT-58297_files"
     }, 
@@ -1668,11 +1668,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22marine%20armour%20cable%201x2x0.75.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22marine%20armour%20cable%201x2x0.75.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58296", 
       "id": "CISCO-THREAT-58296_files"
     }, 
@@ -1695,15 +1695,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22catena%20net%20doo%20beograd%20eur%2042800%2C76%202018062520180625133342.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22catena%20net%20doo%20beograd%20eur%2042800%2C76%202018062520180625133342.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22catena%20net%20doo%20beograd%20eur%2042800%2C76%2020180624083621.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22catena%20net%20doo%20beograd%20eur%2042800%2C76%2020180624083621.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58299", 
       "id": "CISCO-THREAT-58299_files"
     }, 
@@ -1726,19 +1726,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22vessel%20particulars_q88.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22vessel%20particulars_q88.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22vessel%20particulars_q88.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22vessel%20particulars_q88.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22vessel%20particulars_q88.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22vessel%20particulars_q88.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58298", 
       "id": "CISCO-THREAT-58298_files"
     }, 
@@ -1761,15 +1761,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22%23%20flfykjtjez.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22%23%20flfykjtjez.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22%23%20flfykjtjez.bat%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22%23%20flfykjtjez.bat%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58374", 
       "id": "CISCO-THREAT-58374_files"
     }, 
@@ -1792,19 +1792,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation_request_sheet%2Cxls.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation_request_sheet%2Cxls.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation_request_sheet%2Cxls.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation_request_sheet%2Cxls.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation_request_sheet%2Cxls.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation_request_sheet%2Cxls.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58375", 
       "id": "CISCO-THREAT-58375_files"
     }, 
@@ -1827,15 +1827,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22document_list%20.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22document_list%20.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22document_list.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22document_list.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58376", 
       "id": "CISCO-THREAT-58376_files"
     }, 
@@ -1858,15 +1858,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22purchase%20invoice.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20invoice.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22purchase%20invoice.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20invoice.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58377", 
       "id": "CISCO-THREAT-58377_files"
     }, 
@@ -1889,15 +1889,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22hyundaipipe.rfq%3D.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hyundaipipe.rfq%3D.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22hyundaipipe.rfq%3D.scr%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hyundaipipe.rfq%3D.scr%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58370", 
       "id": "CISCO-THREAT-58370_files"
     }, 
@@ -1920,15 +1920,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22oc%201730269%20prod.%20abruf%2082413%20nada%20mikati.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58371", 
       "id": "CISCO-THREAT-58371_files"
     }, 
@@ -1951,15 +1951,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22supply%204279026520012614%20-pdf%20file.r11%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22supply%204279026520012614%20-pdf%20file.r11%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%224279026520012614%20-pdf%20file.bat%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%224279026520012614%20-pdf%20file.bat%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58372", 
       "id": "CISCO-THREAT-58372_files"
     }, 
@@ -1982,19 +1982,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22e%26i%20tech%20co%20ltd%20sales%20contract%20revised.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58373", 
       "id": "CISCO-THREAT-58373_files"
     }, 
@@ -2017,15 +2017,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22purchase%20order-bsindustries-22062018.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order-bsindustries-22062018.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22purchase%20order-bsindustries-22062018.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order-bsindustries-22062018.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58275", 
       "id": "CISCO-THREAT-58275_files"
     }, 
@@ -2048,15 +2048,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22tender%20ayer%28mmhe%2918-0012.lzh%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22tender%20ayer%28mmhe%2918-0012.lzh%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22tender%20ayer%28mmhe%2918-0012.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22tender%20ayer%28mmhe%2918-0012.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58274", 
       "id": "CISCO-THREAT-58274_files"
     }, 
@@ -2079,15 +2079,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22awb2%20inv%20%233018169.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22awb2%20inv%20%233018169.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22awb2%20inv%20%233018169.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22awb2%20inv%20%233018169.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58277", 
       "id": "CISCO-THREAT-58277_files"
     }, 
@@ -2110,15 +2110,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22bank%20transfer%20barclays%2020.06.2018.lha%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bank%20transfer%20barclays%2020.06.2018.lha%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22bank%20transfer%20barclays%2020.06.2018.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bank%20transfer%20barclays%2020.06.2018.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58276", 
       "id": "CISCO-THREAT-58276_files"
     }, 
@@ -2141,15 +2141,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22no%231000348656%20helwa_pdf.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%231000348656%20helwa_pdf.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22no%231000348656%20helwa_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22no%231000348656%20helwa_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58378", 
       "id": "CISCO-THREAT-58378_files"
     }, 
@@ -2172,15 +2172,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22order%20confirmation.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order%20confirmation.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22order%20confirmation.vbs%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22order%20confirmation.vbs%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58379", 
       "id": "CISCO-THREAT-58379_files"
     }, 
@@ -2203,19 +2203,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22purchase%20order.pdf.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order.pdf.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22purchase%20order.pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order.pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22purchase%20order.pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22purchase%20order.pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58369", 
       "id": "CISCO-THREAT-58369_files"
     }, 
@@ -2238,15 +2238,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22inquiry%20no%2003072018_pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22inquiry%20no%2003072018_pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ck_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ck_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58368", 
       "id": "CISCO-THREAT-58368_files"
     }, 
@@ -2269,19 +2269,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_07032018.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_07032018.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_07032018.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_07032018.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_07032018.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_07032018.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58363", 
       "id": "CISCO-THREAT-58363_files"
     }, 
@@ -2304,19 +2304,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22m.v.%20tramontana_doc.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22m.v.%20tramontana_doc.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22m.v.%20tramontana_doc.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22m.v.%20tramontana_doc.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22m.v.%20tramontana_doc.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22m.v.%20tramontana_doc.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58362", 
       "id": "CISCO-THREAT-58362_files"
     }, 
@@ -2339,15 +2339,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ci%2Bpl%2Bbl_docs.xz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ci%2Bpl%2Bbl_docs.xz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22ci%2Bpl%2Bbl.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22ci%2Bpl%2Bbl.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58361", 
       "id": "CISCO-THREAT-58361_files"
     }, 
@@ -2370,19 +2370,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation%20%26%20sample%20designs.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation%20%26%20sample%20designs.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation%20%26%20sample%20designs.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation%20%26%20sample%20designs.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation%20%26%20sample%20designs.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation%20%26%20sample%20designs.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58360", 
       "id": "CISCO-THREAT-58360_files"
     }, 
@@ -2405,11 +2405,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22inquiry_july_shipment.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22inquiry_july_shipment.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58367", 
       "id": "CISCO-THREAT-58367_files"
     }, 
@@ -2432,11 +2432,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22hbl761dc3pl.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22hbl761dc3pl.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58366", 
       "id": "CISCO-THREAT-58366_files"
     }, 
@@ -2459,19 +2459,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601.xlsx.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601_xlsx.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po20180339%20s1%20cargo%20receipt%20%28skk%29%20180601_xlsx.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58365", 
       "id": "CISCO-THREAT-58365_files"
     }, 
@@ -2494,11 +2494,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%220041477749_0666_119_2018-06-14-12_21_10.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%220041477749_0666_119_2018-06-14-12_21_10.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58364", 
       "id": "CISCO-THREAT-58364_files"
     }, 
@@ -2521,15 +2521,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22attachments%20default.htm%20%282.21k%29.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22attachments%20default.htm%20%282.21k%29.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22attachments%20default.htm%20%282.21k%29.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22attachments%20default.htm%20%282.21k%29.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58289", 
       "id": "CISCO-THREAT-58289_files"
     }, 
@@ -2552,11 +2552,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22notification19905661.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22notification19905661.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58407", 
       "id": "CISCO-THREAT-58407_files"
     }, 
@@ -2579,19 +2579,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv.daeho%20sunstar%201704.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.daeho%20sunstar%201704.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv.daeho%20sunstar%201704.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.daeho%20sunstar%201704.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mv.daeho%20sunstar%201704.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mv.daeho%20sunstar%201704.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58408", 
       "id": "CISCO-THREAT-58408_files"
     }, 
@@ -2614,19 +2614,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%2220180704_171537_mt103_copy.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2220180704_171537_mt103_copy.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%2220180704_171537_mt103_copy.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2220180704_171537_mt103_copy.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%2220180704_171537_mt103_copy.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2220180704_171537_mt103_copy.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58409", 
       "id": "CISCO-THREAT-58409_files"
     }, 
@@ -2649,11 +2649,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22000002746539575docx.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22000002746539575docx.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58319", 
       "id": "CISCO-THREAT-58319_files"
     }, 
@@ -2676,11 +2676,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%2228746582000docx.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%2228746582000docx.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58310", 
       "id": "CISCO-THREAT-58310_files"
     }, 
@@ -2703,15 +2703,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_doc_pdf.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_doc_pdf.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan_doc_pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan_doc_pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58411", 
       "id": "CISCO-THREAT-58411_files"
     }, 
@@ -2734,19 +2734,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22bill%20of%20landing%20and%20certificate%20of%20origin.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22bill%20of%20landing%20and%20certificate%20of%20origin.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22bill%20of%20landing%20and%20certificate%20of%20origin.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22bill%20of%20landing%20and%20certificate%20of%20origin.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58410", 
       "id": "CISCO-THREAT-58410_files"
     }, 
@@ -2769,19 +2769,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation8463b_july70918_hangzhouimportandexport.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation8463b_july70918_hangzhouimportandexport.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation8463b_july70918_hangzhouimportandexport.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation8463b_july70918_hangzhouimportandexport.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58413", 
       "id": "CISCO-THREAT-58413_files"
     }, 
@@ -2804,19 +2804,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc%23103041dr..zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc%23103041dr..zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc%23103041dr..rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc%23103041dr..rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22doc%23103041dr..exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22doc%23103041dr..exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58412", 
       "id": "CISCO-THREAT-58412_files"
     }, 
@@ -2839,15 +2839,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mys-turkeysupplyquote09072018.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mys-turkeysupplyquote09072018.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22mys-turkeysupplyquote09072018.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22mys-turkeysupplyquote09072018.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58415", 
       "id": "CISCO-THREAT-58415_files"
     }, 
@@ -2870,19 +2870,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment%20advice%200020180709.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%200020180709.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment%20advice%200020180709.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%200020180709.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22payment%20advice%200020180709.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22payment%20advice%200020180709.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58414", 
       "id": "CISCO-THREAT-58414_files"
     }, 
@@ -2905,15 +2905,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22img_20180709_655476.jpg.ace%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22img_20180709_655476.jpg.ace%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22quotation.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22quotation.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58416", 
       "id": "CISCO-THREAT-58416_files"
     }, 
@@ -2936,11 +2936,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22orig.invc..jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22orig.invc..jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58309", 
       "id": "CISCO-THREAT-58309_files"
     }, 
@@ -2963,11 +2963,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22pda%20request.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22pda%20request.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58308", 
       "id": "CISCO-THREAT-58308_files"
     }, 
@@ -2990,19 +2990,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22dhl%20documents%20and%20invoice.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20documents%20and%20invoice.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22dhl%20documents%20and%20invoice.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20documents%20and%20invoice.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22dhl%20documents%20and%20invoice.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22dhl%20documents%20and%20invoice.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58288", 
       "id": "CISCO-THREAT-58288_files"
     }, 
@@ -3025,15 +3025,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22product%20inquiry.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22product%20inquiry.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan56352.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan56352.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58303", 
       "id": "CISCO-THREAT-58303_files"
     }, 
@@ -3056,19 +3056,19 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan-quo1-pdf.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan-quo1-pdf.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan-quo1-pdf.rar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan-quo1-pdf.rar%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22scan-kon1-pdf.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22scan-kon1-pdf.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58302", 
       "id": "CISCO-THREAT-58302_files"
     }, 
@@ -3091,11 +3091,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22po_2292_from_al_raqaib_building_materials_trading_l.l.c._7904.jar%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22po_2292_from_al_raqaib_building_materials_trading_l.l.c._7904.jar%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58394", 
       "id": "CISCO-THREAT-58394_files"
     }, 
@@ -3118,15 +3118,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22letter%20of%20demand.zip%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22letter%20of%20demand.zip%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22letter%20of%20demand.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22letter%20of%20demand.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58392", 
       "id": "CISCO-THREAT-58392_files"
     }, 
@@ -3149,15 +3149,15 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22invoice%20format.gz%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22invoice%20format.gz%22)"
           }, 
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22invoice%20format.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22invoice%20format.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58393", 
       "id": "CISCO-THREAT-58393_files"
     }, 
@@ -3180,11 +3180,11 @@
         "query": [
           {
             "index_type": "events", 
-            "search_query": "cb.urlver=1&q=%22profile.exe%22"
+            "search_query": "cb.urlver=1&q=((process_name%3aoutlook.exe%20OR%20process_name%3afirefox.exe%20OR%20process_name%3aopera.exe%20OR%20process_name%3achrome.exe%20OR%20process_name%3aiexplore.exe%20OR%20process_name%3amicrosoftedge.exe%20OR%20process_name%3amicrosoftedgecp.exe)%20filemod%3a%22profile.exe%22)"
           }
         ]
       }, 
-      "score": 50, 
+      "score": 70, 
       "link": "https://tools.cisco.com/security/center/viewThreatOutbreakAlert.x?alertId=58391", 
       "id": "CISCO-THREAT-58391_files"
     }
