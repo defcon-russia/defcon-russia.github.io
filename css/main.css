@@ -16,7 +16,6 @@ p {
 h1,h2,h3,h4,h5,h6 {
   font-family: 'Fira Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
-	text-shadow: 0 0 1px #00ebeb, 0 -1px 1px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.5), 0 0 3px #00ebeb, 0 0 3px rgba(209, 0, 177, 0.8);
 	color: #ccc;
 }
 
@@ -24,14 +23,12 @@ a {
 	cursor:pointer;
 	color:#00ebeb;
 	text-decoration:none;
-	text-shadow: 0 0 1px #00ebeb, 0 -1px 1px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.5), 0 0 10px #00ebeb, 0 0 5px rgba(209, 0, 177, 0.8);
 	font-family: 'Fira Sans', Helvetica, Arial, sans-serif;
 	font-size: 100%;
 }
 
 a:hover{
 	color:#00ebeb;
-	text-shadow: 0 0 1px #00ebeb, 0 -1px 1px rgba(255, 255, 255, 0.8), 0 1px 1px rgba(0, 0, 0, 0.5), 0 0 15px #00ebeb, 0 0 25px rgba(209, 0, 177, 0.8);
 	text-decoration: none;
 }
 
