@@ -8,6 +8,7 @@
     <language>en-us</language>
     <managingEditor>defconrussia@gmail.com (Russian DEF CON group: DC7812)</managingEditor>
     <webMaster>defconrussia@gmail.com (Russian DEF CON group: DC7812)</webMaster>
+    <lastBuildDate>Sat, 14 Jul 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://defcon-russia.ru/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,18 +16,9 @@
     <item>
       <title>Meetups</title>
       <link>https://defcon-russia.ru/categories/meetups/</link>
-      <pubDate>Tue, 03 Jul 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
       <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
       <guid>https://defcon-russia.ru/categories/meetups/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>News</title>
-      <link>https://defcon-russia.ru/categories/news/</link>
-      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
-      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
-      <guid>https://defcon-russia.ru/categories/news/</guid>
       <description></description>
     </item>
     
@@ -36,6 +28,15 @@
       <pubDate>Thu, 02 Nov 2017 00:00:00 +0000</pubDate>
       <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
       <guid>https://defcon-russia.ru/categories/streams/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://defcon-russia.ru/categories/news/</link>
+      <pubDate>Thu, 27 Jul 2017 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/categories/news/</guid>
       <description></description>
     </item>
     
