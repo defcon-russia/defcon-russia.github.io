@@ -8,10 +8,19 @@
     <language>en-us</language>
     <managingEditor>defconrussia@gmail.com (Russian DEF CON group: DC7812)</managingEditor>
     <webMaster>defconrussia@gmail.com (Russian DEF CON group: DC7812)</webMaster>
-    <lastBuildDate>Sun, 14 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://defcon-russia.ru/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Meeting on 11.3.2020</title>
+      <link>https://defcon-russia.ru/2020/03/meeting-on-11.3.2020/</link>
+      <pubDate>Mon, 02 Mar 2020 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/2020/03/meeting-on-11.3.2020/</guid>
+      <description>&lt;p&gt;Next meeting will be on 11 March 2020 at 19:00.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Meeting on 4.8.2019</title>
@@ -20,15 +29,6 @@
       <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
       <guid>https://defcon-russia.ru/2019/07/meeting-on-4.8.2019/</guid>
       <description>&lt;p&gt;Next meeting will be on 4.8.2019 at 13:00.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Meeting on 11.3.2019</title>
-      <link>https://defcon-russia.ru/2019/03/meeting-on-11.3.2019/</link>
-      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
-      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
-      <guid>https://defcon-russia.ru/2019/03/meeting-on-11.3.2019/</guid>
-      <description>&lt;p&gt;Next meeting will be on 11 March 2020 at 19:00.&lt;/p&gt;</description>
     </item>
     
     <item>

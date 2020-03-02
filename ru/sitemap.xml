@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://defcon-russia.ru/ru/categories/</loc>
-    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://defcon-russia.ru/ru/</loc>
-    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -34,7 +34,7 @@
   
   <url>
     <loc>https://defcon-russia.ru/ru/post/</loc>
-    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
+    <lastmod>2020-03-02T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -45,6 +45,26 @@
                 hreflang="ru"
                 href="https://defcon-russia.ru/ru/post/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://defcon-russia.ru/ru/2020/03/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-11.3.2020/</loc>
+    <lastmod>2020-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://defcon-russia.ru/2020/03/meeting-on-11.3.2020/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://defcon-russia.ru/ru/2020/03/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-11.3.2020/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://defcon-russia.ru/ru/categories/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8/</loc>
+    <lastmod>2020-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -59,26 +79,6 @@
                 rel="alternate"
                 hreflang="ru"
                 href="https://defcon-russia.ru/ru/2019/07/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-4.8.2019/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://defcon-russia.ru/ru/categories/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8/</loc>
-    <lastmod>2019-07-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://defcon-russia.ru/ru/2019/03/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-11.3.2020/</loc>
-    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://defcon-russia.ru/2019/03/meeting-on-11.3.2019/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://defcon-russia.ru/ru/2019/03/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-11.3.2020/"
                 />
   </url>
   
