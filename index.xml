@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DEF CON group DCG7812 St.Petersburg,Russia</title>
@@ -20,6 +20,15 @@
       <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
       <guid>https://defcon-russia.ru/2019/07/meeting-on-4.8.2019/</guid>
       <description>&lt;p&gt;Next meeting will be on 4.8.2019 at 13:00.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Meeting on 11.3.2019</title>
+      <link>https://defcon-russia.ru/2019/03/meeting-on-11.3.2019/</link>
+      <pubDate>Sat, 02 Mar 2019 00:00:00 +0000</pubDate>
+      <author>defconrussia@gmail.com (Russian DEF CON group: DC7812)</author>
+      <guid>https://defcon-russia.ru/2019/03/meeting-on-11.3.2019/</guid>
+      <description>&lt;p&gt;Next meeting will be on 11 March 2020 at 19:00.&lt;/p&gt;</description>
     </item>
     
     <item>

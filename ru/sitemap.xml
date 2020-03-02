@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://defcon-russia.ru/ru/categories/</loc>
     <lastmod>2019-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -21,7 +20,6 @@
   <url>
     <loc>https://defcon-russia.ru/ru/</loc>
     <lastmod>2019-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -37,7 +35,6 @@
   <url>
     <loc>https://defcon-russia.ru/ru/post/</loc>
     <lastmod>2019-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -68,7 +65,21 @@
   <url>
     <loc>https://defcon-russia.ru/ru/categories/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B8/</loc>
     <lastmod>2019-07-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://defcon-russia.ru/ru/2019/03/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-11.3.2020/</loc>
+    <lastmod>2019-03-02T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://defcon-russia.ru/2019/03/meeting-on-11.3.2019/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://defcon-russia.ru/ru/2019/03/%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0-11.3.2020/"
+                />
   </url>
   
   <url>
@@ -134,7 +145,6 @@
   <url>
     <loc>https://defcon-russia.ru/ru/categories/%D1%81%D1%82%D1%80%D0%B8%D0%BC%D1%8B/</loc>
     <lastmod>2017-11-02T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -170,7 +180,6 @@
   <url>
     <loc>https://defcon-russia.ru/ru/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</loc>
     <lastmod>2017-07-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -205,7 +214,6 @@
   
   <url>
     <loc>https://defcon-russia.ru/ru/tags/</loc>
-    <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
