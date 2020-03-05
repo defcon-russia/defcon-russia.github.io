@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Встреча 5.8.2018</title>
+  
+  <meta name="author" content="Russian DEF CON group: DC7812"/>
+  <meta name="generator" content="Hugo 0.66.0" />
+  <link href='https://defcon-russia.ru//img/favicon.ico' rel='icon' type='image/x-icon'/>
+
+  <link rel="alternate" href="https://defcon-russia.ru/index.xml" type="application/rss+xml" title="DEF CON group DCG7812 St.Petersburg,Russia">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://defcon-russia.ru//css/bootstrap.css" />
+  <link rel="stylesheet" href="https://defcon-russia.ru//css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+
+  
+  <meta property="og:title" content="Встреча 5.8.2018" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="/ru/posts/meetup-050818/" />
+  <meta property="og:image" content="/img/logo.png" />
+  
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://defcon-russia.ru/">DEF CON group DCG7812 St.Petersburg,Russia</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+      
+        
+          <li>
+          <a title="Главная" href="/ru/">Главная</a>
+  	      </li>
+  	    
+      
+        
+          <li>
+          <a title="О нас" href="/about/">О нас</a>
+  	      </li>
+  	    
+      
+        
+          <li>
+          <a title="Контакты" href="/contact/">Контакты</a>
+  	      </li>
+  	    
+      
+
+      
+        <li class="navlinks-pad">
+        </li>
+        
+          <li>
+            <a class="navlinks-language" href="https://defcon-russia.ru/">Eng</a>
+          </li>
+        
+          <li>
+            <a class="navlinks-language" href="https://defcon-russia.ru/ru/">Ru</a>
+          </li>
+        
+         
+      </ul>
+    </div>
+
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+      
+          <a title="DEF CON group DCG7812 St.Petersburg,Russia" href="https://defcon-russia.ru/">
+              <img class="avatar-img" src="https://defcon-russia.ru//img/logo.png" alt="DEF CON group DCG7812 St.Petersburg,Russia" />
+          </a>
+      
+	  </div>
+	</div>
+
+  </div>
+</nav>
+
+
+    <div role="main" class="container main-content">
+
+      
+
+
+
+  
+
+  <header class="header-section ">
+  
+  <div class="intro-header no-img">
+      <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="posts-heading">
+          <h1>Встреча 5.8.2018</h1>
+      
+      
+      
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </header>
+
+	  
+      
+        <div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+          <p>Товарищи! Следующая встреча группы будет 5.8.2018 в 14.30. Уже в третий раз подряд мы собираемся провести наше замечательное летнее событие - арендовать теплоход, почитать и послушать доклады, а также просто пообщаться.</p>
+<h2 id="доклады">Доклады</h2>
+<h3 id="александр-румянцев---введение-в-атаки-по-сторонним-каналам-на-микроархитектуру-основанные-на-исполнении-кода">Александр Румянцев - «Введение в атаки по сторонним каналам на микроархитектуру, основанные на исполнении кода»</h3>
+<p>В докладе будет представлено абстрактное описание элементов микроархитектуры, необходимых для проведения атак по сторонним каналам. Также будут представлены примитивы и базовые атаки, которые необходимы для проведения более комплексных, аппаратные дефекты, на эксплуатации которых базируются атаки. Будут поверхностно рассмотрены популярные на сегодняшний день комплексные атаки на микроархитектуру, которые эксплуатируют такие уязвимости, как Meltdown, Spectre, Rowhammer и др.</p>
+<h3 id="георгий-зайцев---hexrays-ast">Георгий Зайцев - HexRays Ast</h3>
+<p>Расскажу о своем проекте(HRAST) - набор скриптов для IDA, которые позволяют создавать свою логику поверх вывода декомпилятора.
+Делается это через описание в виде поддерева AST и написание своего обработчика для него. Это можно использовать, например, в следующих случаях:</p>
+<ol>
+<li>Замена заинлайненных функций</li>
+<li>Автоматическое переименовывание глобальных переменных в конструкциях вида GLOBAL_VAR = Func(..,UNIQ_NAME, &hellip;)</li>
+<li>Определять тип используемых переменных по специфическим конструкциям, добавляемых компилятором.
+и прочее:)
+Помимо того как и где это можно использовать, планирую рассказать о трудностях, которые могут возникнуть в процессе автоматизации работы с выводом декомпилятора, и о том как можно с ними бороться.</li>
+</ol>
+<h3 id="алексей-морозов---уязвимости-ipmi">Алексей Морозов - уязвимости IPMI</h3>
+<p>Описание доклада: В докладе речь пойдет об уязвимостях IPMI, способах вычисления IPMI по 623 порту, как работает BMC модуль, что такое shared режим и чем он опасен, способы взлома IPMI, техники Restricted Shell при подключении через SSH, рассказывается чем опасен в разных версиях(Supermicro, Asus, HР). Представлены скрипты для автоматизации в Nmap. Чем опасен нулевой символ при запросах к ipmi. Уязвимости по OWASP в web интерфейсах IPMI. Рассказывается об уязвимостях самого протокола такие как (RAKP),  Рассказывается как защититься от атак через IPMI. И как обнаруживать ipmi автоматический если нет доступа к 623UDP, или где ещё он может скрываться(vnc, ssh, web, web+ssl).</p>
+<h2 id="место-и-время">Место и время</h2>
+<p>Теплоход будет ждать нас 5 августа с 14:30 до 15:30 по адресу - Дворцовая наб. д. 18 (где и в прошлом и позапрошлом году). В 15:30 мы отплываем и в 19:30 вернемся туда же, на Дворцовую наб. д. 18. Ждать никого не сможем, как и захватить по пути.</p>
+<p>[new] футболки! Хотим сказать спасибо <a href="https://dribbble.com/polinakz">https://dribbble.com/polinakz</a> за дизайн наших футболок! Если вы хотите - можете распечатать сами себе (файлы в аттаче, для печати надо брать .ai), но мы также планируем сделать это коллективно. Если вам нужна футболка - переводите +1000р и указывайте в личном сообщении @sergeybelove (tg) размер футболки до 24 июля.</p>
+<h2 id="оплата">Оплата</h2>
+<p>Билеты проданы</p>
+<h2 id="ограничения">Ограничения</h2>
+<p>На теплоход вмещается максимум 100 человек и мы не сможем взять больше. Поэтому действует следующая схема - кто оплатил раньше, тот и проходит. Поэтому, пожалуйста, не затягивайте с оплатой. Как только мы соберем 100 человек - мы сразу закроем прием оплаты (сообщим письмом и в чате telegram).</p>
+<p>До встречи!</p>
+
+          
+          <h4>Translations</h4>
+          <ul>
+            
+            <li>
+              <a href="/posts/meetup-050818/">en: Meeting on 5.8.2018</a>
+            </li>
+            
+          </ul>
+          
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+        <li class="previous">
+          <a href="https://defcon-russia.ru/ru/posts/meetup-080618/" data-toggle="tooltip" data-placement="top" title="Встреча 8.6.2018">&larr; Previous Post</a>
+        </li>
+        
+        
+        <li class="next">
+          <a href="https://defcon-russia.ru/ru/posts/meetup-040819/" data-toggle="tooltip" data-placement="top" title="Встреча 4.8.2019">Next Post &rarr;</a>
+        </li>
+        
+      </ul>
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+
+    </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+          <li>
+            <a href="https://github.com/defcon-russia" title="GitHub">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="https://twitter.com/defconrussia" title="Twitter">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="mailto:defconrussia@gmail.com" title="Email me">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="https://www.youtube.com/channel/UCPl0neGOB-NmarQ741-yBKg" title="YouTube">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+		      
+          <li>
+            <a href="https://twitch.tv/defconrussia" title="Twitch">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitch fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+                    
+		                          
+	    	  
+          
+          
+
+    		  <li>
+      			<a href="https://defcon-russia.ru/index.xml" title="RSS">
+      			  <span class="fa-stack fa-lg">
+        				<i class="fa fa-circle fa-stack-2x"></i>
+        				<i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+      			  </span>
+      			</a>
+    		  </li>		
+
+        </ul>
+        <p class="credits copyright text-muted">
+    	  <a href="https://defcon-russia.ru/">Russian DEF CON group: DC7812</a> 2020 | <a href="http://gohugo.io">Hugo</a> fueled
+    		  
+    	  
+    	  
+  	    </p>
+  	    
+    	<p class="credits theme-by text-muted">
+			<a href="https://github.com/5ARMALE/retrofulhugo">Retroful Hugo</a> theme based on <a href="https://github.com/1138-4EB/beautifulhugo">Beautiful Hugo</a>.
+          
+    	</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://defcon-russia.ru//js/jquery-1.11.2.min.js"></script>
+<script src="https://defcon-russia.ru//js/bootstrap.min.js"></script>
+<script src="https://defcon-russia.ru//js/main.js"></script>
+
+
+
+
+  </body>
+</html>
