@@ -1,8 +1,0 @@
-<?php
-@unlink("phar.phar");
-$phar = new Phar("phar.phar");
-$phar->startBuffering();
-$phar->addFromString("test.txt","test");
-$phar->setStub("<?php echo 'STUB!'; __HALT_COMPILER(); ?>");
-$phar->stopBuffering();
-?>
